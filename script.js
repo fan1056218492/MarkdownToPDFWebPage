@@ -2,7 +2,7 @@ const translations = {
   en: {
     pageTitle: "MarkdownToPDF PRO for macOS",
     pageDescription:
-      "MarkdownToPDF PRO is a Finder-powered macOS app for turning Markdown files into polished PDFs with profiles, syntax highlighting, math rendering, history, and privacy-first local processing. Starting in version 1.5, use it free for 7 days and unlock forever with a one-time $2.99 purchase.",
+      "MarkdownToPDF PRO is a Finder-powered macOS app for turning Markdown files into polished PDFs with profiles, syntax highlighting, math rendering, history, and privacy-first local processing. Starting in version 1.5, export 20 PDFs free without buying anything, then try it free for 7 days, and unlock forever with a one-time US$1 purchase. No subscriptions or automatic billing.",
     navPrimaryAria: "Primary navigation",
     langSwitcherLabel: "Language switcher",
     skipLink: "Skip to content",
@@ -13,7 +13,7 @@ const translations = {
     heroTitle: "Turn Markdown into polished PDFs without leaving Finder.",
     heroLead:
       "MarkdownToPDF PRO is built for writers, engineers, and documentation teams who want local, repeatable exports with batch queues, profiles, and clean print-ready output.",
-    heroDownload: "Start 7-day free use",
+    heroDownload: "Use 20 free PDF exports",
     heroPrimary: "Explore previews",
     heroSecondary: "Read privacy policy",
     heroBadge1: "Right-click .md and .markdown files in authorized Finder folders",
@@ -27,7 +27,8 @@ const translations = {
     metaPrivacyLabel: "Privacy",
     metaPrivacyValue: "No account, no cloud upload",
     metaPricingLabel: "Version 1.5+",
-    metaPricingValue: "7-day free use, $2.99 lifetime unlock",
+    metaPricingValue:
+      "20 free exports, 7-day trial, US$1 lifetime unlock. No subscription or auto billing.",
     heroNoteTopLabel: "Queue-first workflow",
     heroNoteTopBody:
       "Finder requests are handed to the main app, so longer conversions stay stable and easier to manage.",
@@ -139,7 +140,7 @@ const translations = {
       "Only the Markdown files and folders you explicitly choose, plus local app settings, profiles, history records, and queue metadata.",
     privacyCard2Title: "What the app does not require",
     privacyCard2Body:
-      "No account creation, no subscription login, no analytics SDK, and no document upload service in the current app.",
+      "No account creation, no subscription, no automatic billing, no analytics SDK, and no document upload service in the current app.",
     privacyCard3Title: "How data stays local",
     privacyCard3Body:
       "The app is sandboxed and uses user-selected file permissions plus an App Group container for Finder-to-app job handoff.",
@@ -170,7 +171,7 @@ const translations = {
   "zh-Hans": {
     pageTitle: "MarkdownToPDF PRO for macOS",
     pageDescription:
-      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 扩展应用，可将 Markdown 文件本地转换为精致 PDF，并提供配置模板、语法高亮、数学公式渲染、历史记录、批量队列与隐私优先的处理方式。1.5 版本起可免费使用 7 天，2.99 美元一次性付费即可永久解锁。",
+      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 扩展应用，可将 Markdown 文件本地转换为精致 PDF，并提供配置模板、语法高亮、数学公式渲染、历史记录、批量队列与隐私优先的处理方式。1.5 版本起，在不购买任何商品的情况下可免费导出 20 次 PDF，之后可进行 7 天免费试用，最后 US$1 一次性购买即可永久解锁；无任何订阅和自动扣费。",
     navPrimaryAria: "主导航",
     langSwitcherLabel: "语言切换",
     skipLink: "跳转到正文",
@@ -181,7 +182,7 @@ const translations = {
     heroTitle: "不离开 Finder，把 Markdown 直接导出成精致 PDF。",
     heroLead:
       "MarkdownToPDF PRO 面向写作者、工程师和文档团队，强调本地处理、可重复导出、批量队列、配置模板，以及更适合打印与分享的输出效果。",
-    heroDownload: "免费试用 7 天",
+    heroDownload: "免费导出 20 次 PDF",
     heroPrimary: "查看预览图",
     heroSecondary: "阅读隐私政策",
     heroBadge1: "在你主动授权的 Finder 目录中，可右键 `.md` 与 `.markdown` 文件开始转换",
@@ -195,7 +196,7 @@ const translations = {
     metaPrivacyLabel: "隐私",
     metaPrivacyValue: "无需账号，不上传云端",
     metaPricingLabel: "1.5 版本起",
-    metaPricingValue: "7 天免费使用，2.99 美元永久解锁",
+    metaPricingValue: "20 次免费导出，7 天试用，US$1 永久解锁；无订阅和自动扣费",
     heroNoteTopLabel: "以队列为核心",
     heroNoteTopBody:
       "Finder 只负责触发请求，真正的长任务交给主应用处理，稳定性和可管理性都更好。",
@@ -307,7 +308,7 @@ const translations = {
       "仅访问你明确选择的 Markdown 文件和目录，以及本地保存的应用设置、模板、历史记录和队列元数据。",
     privacyCard2Title: "应用不需要什么",
     privacyCard2Body:
-      "当前应用不需要创建账号、不需要订阅登录、没有分析 SDK，也没有文档上传服务。",
+      "当前应用不需要创建账号、没有任何订阅和自动扣费、没有分析 SDK，也没有文档上传服务。",
     privacyCard3Title: "数据如何保留在本地",
     privacyCard3Body:
       "应用运行在沙盒中，使用用户授权的文件权限，并通过 App Group 容器在 Finder 扩展与主应用之间传递任务。",
@@ -338,7 +339,7 @@ const translations = {
   "zh-Hant": {
     pageTitle: "MarkdownToPDF PRO for macOS",
     pageDescription:
-      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 延伸功能 App，可將 Markdown 檔案在本機轉換為精緻 PDF，並提供設定檔、語法高亮、數學公式渲染、歷史記錄、批次佇列與隱私優先的處理方式。1.5 版起可免費使用 7 天，2.99 美元一次性付費即可永久解鎖。",
+      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 延伸功能 App，可將 Markdown 檔案在本機轉換為精緻 PDF，並提供設定檔、語法高亮、數學公式渲染、歷史記錄、批次佇列與隱私優先的處理方式。1.5 版起，在不購買任何商品的情況下可免費匯出 20 次 PDF，之後可進行 7 天免費試用，最後 US$1 一次性購買即可永久解鎖；無任何訂閱和自動扣款。",
     navPrimaryAria: "主要導覽",
     langSwitcherLabel: "語言切換",
     skipLink: "跳至主要內容",
@@ -349,7 +350,7 @@ const translations = {
     heroTitle: "不離開 Finder，直接把 Markdown 匯出成精緻 PDF。",
     heroLead:
       "MarkdownToPDF PRO 面向寫作者、工程師與文件團隊，強調本機處理、可重複匯出、批次佇列、設定檔，以及更適合列印與分享的輸出品質。",
-    heroDownload: "免費試用 7 天",
+    heroDownload: "免費匯出 20 次 PDF",
     heroPrimary: "查看預覽圖",
     heroSecondary: "閱讀隱私政策",
     heroBadge1: "在你主動授權的 Finder 資料夾中，可右鍵 `.md` 與 `.markdown` 檔案開始轉換",
@@ -363,7 +364,7 @@ const translations = {
     metaPrivacyLabel: "隱私",
     metaPrivacyValue: "無需帳號，不上傳雲端",
     metaPricingLabel: "1.5 版起",
-    metaPricingValue: "7 天免費使用，2.99 美元永久解鎖",
+    metaPricingValue: "20 次免費匯出，7 天試用，US$1 永久解鎖；無訂閱和自動扣款",
     heroNoteTopLabel: "以佇列為核心",
     heroNoteTopBody:
       "Finder 只負責送出請求，真正的長時間工作交給主 App 處理，穩定性與可管理性都更好。",
@@ -475,7 +476,7 @@ const translations = {
       "僅存取你明確選擇的 Markdown 檔案與資料夾，以及本機儲存的應用設定、設定檔、歷史記錄與佇列中繼資料。",
     privacyCard2Title: "應用不需要什麼",
     privacyCard2Body:
-      "目前應用不需要建立帳號、不需要訂閱登入、沒有分析 SDK，也沒有文件上傳服務。",
+      "目前應用不需要建立帳號、沒有任何訂閱和自動扣款、沒有分析 SDK，也沒有文件上傳服務。",
     privacyCard3Title: "資料如何留在本機",
     privacyCard3Body:
       "應用運行在沙盒中，使用使用者授權的檔案權限，並透過 App Group 容器在 Finder 延伸功能與主應用之間傳遞工作。",
@@ -506,7 +507,7 @@ const translations = {
   ja: {
     pageTitle: "MarkdownToPDF PRO for macOS",
     pageDescription:
-      "MarkdownToPDF PRO は、Finder から Markdown ファイルを整った PDF に変換できる macOS アプリです。プロファイル、構文ハイライト、数式レンダリング、履歴、バッチキュー、プライバシー重視のローカル処理に対応しています。バージョン 1.5 以降は 7 日間無料で使え、2.99 米ドルの一回払いで永久にアンロックできます。",
+      "MarkdownToPDF PRO は、Finder から Markdown ファイルを整った PDF に変換できる macOS アプリです。プロファイル、構文ハイライト、数式レンダリング、履歴、バッチキュー、プライバシー重視のローカル処理に対応しています。バージョン 1.5 以降は、購入なしで PDF を 20 回無料で書き出せます。その後 7 日間無料トライアルを利用でき、最後は US$1 の一回払いで永久にアンロックできます。サブスクリプションや自動課金はありません。",
     navPrimaryAria: "メインナビゲーション",
     langSwitcherLabel: "言語切り替え",
     skipLink: "本文へ移動",
@@ -517,7 +518,7 @@ const translations = {
     heroTitle: "Finder を離れずに、Markdown を洗練された PDF に変換。",
     heroLead:
       "MarkdownToPDF PRO は、ローカルで繰り返し使える書き出し、バッチキュー、プロファイル管理、印刷向けのきれいな出力を求めるライター、エンジニア、ドキュメントチーム向けに設計されています。",
-    heroDownload: "7日間無料で試す",
+    heroDownload: "PDF を20回無料で書き出す",
     heroPrimary: "プレビューを見る",
     heroSecondary: "プライバシーポリシーを読む",
     heroBadge1: "許可した Finder フォルダ内で `.md` と `.markdown` を右クリックして変換開始",
@@ -531,7 +532,7 @@ const translations = {
     metaPrivacyLabel: "プライバシー",
     metaPrivacyValue: "アカウント不要、クラウド送信なし",
     metaPricingLabel: "バージョン 1.5 以降",
-    metaPricingValue: "7日間無料、$2.99 の一回払いで永久アンロック",
+    metaPricingValue: "20回無料書き出し、7日間トライアル、US$1 で永久アンロック。サブスクなし。",
     heroNoteTopLabel: "キュー中心のワークフロー",
     heroNoteTopBody:
       "Finder からの要求はメインアプリに渡されるため、時間のかかる変換でも安定して管理しやすくなります。",
@@ -643,7 +644,7 @@ const translations = {
       "明示的に選択した Markdown ファイルとフォルダ、およびローカルのアプリ設定、プロファイル、履歴、キューメタデータのみです。",
     privacyCard2Title: "アプリが必要としないもの",
     privacyCard2Body:
-      "アカウント作成、サブスクリプションログイン、分析 SDK、文書アップロードサービスは現在のアプリに含まれていません。",
+      "アカウント作成、サブスクリプション、自動課金、分析 SDK、文書アップロードサービスは現在のアプリに含まれていません。",
     privacyCard3Title: "データがローカルに留まる仕組み",
     privacyCard3Body:
       "アプリはサンドボックス内で動作し、ユーザー選択のファイル権限と App Group コンテナを使って Finder 拡張と本体アプリ間でジョブを受け渡します。",
@@ -674,7 +675,7 @@ const translations = {
   ko: {
     pageTitle: "MarkdownToPDF PRO for macOS",
     pageDescription:
-      "MarkdownToPDF PRO는 Finder에서 Markdown 파일을 정돈된 PDF로 바꿔 주는 macOS 앱입니다. 프로필, 문법 강조, 수식 렌더링, 기록, 배치 큐, 개인정보 중심의 로컬 처리에 대응합니다. 버전 1.5부터 7일 동안 무료로 사용할 수 있으며, $2.99 1회 결제로 영구 잠금 해제할 수 있습니다.",
+      "MarkdownToPDF PRO는 Finder에서 Markdown 파일을 정돈된 PDF로 바꿔 주는 macOS 앱입니다. 프로필, 문법 강조, 수식 렌더링, 기록, 배치 큐, 개인정보 중심의 로컬 처리에 대응합니다. 버전 1.5부터는 아무 상품을 구매하지 않아도 PDF를 20회 무료로 내보낼 수 있습니다. 이후 7일 무료 체험을 사용할 수 있고, 마지막으로 US$1 1회 결제로 영구 잠금 해제할 수 있습니다. 구독이나 자동 결제는 없습니다.",
     navPrimaryAria: "기본 탐색",
     langSwitcherLabel: "언어 전환",
     skipLink: "본문으로 건너뛰기",
@@ -685,7 +686,7 @@ const translations = {
     heroTitle: "Finder를 벗어나지 않고 Markdown을 완성도 높은 PDF로 변환.",
     heroLead:
       "MarkdownToPDF PRO는 로컬에서 반복 가능한 내보내기, 배치 큐, 프로필, 깔끔한 출력 품질이 필요한 작성자, 엔지니어, 문서 팀을 위해 만들어졌습니다.",
-    heroDownload: "7일 무료로 시작",
+    heroDownload: "PDF 20회 무료 내보내기",
     heroPrimary: "미리보기 보기",
     heroSecondary: "개인정보 처리방침 읽기",
     heroBadge1: "권한을 허용한 Finder 폴더에서 `.md`와 `.markdown` 파일을 우클릭해 변환 시작",
@@ -699,7 +700,7 @@ const translations = {
     metaPrivacyLabel: "개인정보",
     metaPrivacyValue: "계정 없음, 클라우드 업로드 없음",
     metaPricingLabel: "버전 1.5부터",
-    metaPricingValue: "7일 무료 사용, $2.99 1회 결제로 영구 해제",
+    metaPricingValue: "20회 무료 내보내기, 7일 체험, US$1 영구 해제. 구독 없음.",
     heroNoteTopLabel: "큐 중심 워크플로",
     heroNoteTopBody:
       "Finder 요청은 메인 앱으로 전달되므로 시간이 걸리는 변환도 더 안정적으로 관리할 수 있습니다.",
@@ -811,7 +812,7 @@ const translations = {
       "사용자가 명시적으로 선택한 Markdown 파일과 폴더, 그리고 로컬 앱 설정, 프로필, 기록, 큐 메타데이터만 접근합니다.",
     privacyCard2Title: "앱에 필요하지 않은 것",
     privacyCard2Body:
-      "계정 생성, 구독 로그인, 분석 SDK, 문서 업로드 서비스는 현재 앱에 포함되지 않습니다.",
+      "현재 앱에는 계정 생성, 구독, 자동 결제, 분석 SDK, 문서 업로드 서비스가 필요하지 않습니다.",
     privacyCard3Title: "데이터가 로컬에 머무는 방식",
     privacyCard3Body:
       "앱은 샌드박스에서 동작하며 사용자 선택 파일 권한과 App Group 컨테이너를 사용해 Finder 확장과 메인 앱 사이에 작업을 전달합니다.",
@@ -842,7 +843,7 @@ const translations = {
   de: {
     pageTitle: "MarkdownToPDF PRO für macOS",
     pageDescription:
-      "MarkdownToPDF PRO ist eine macOS-App mit Finder-Integration, die Markdown-Dateien lokal in hochwertige PDFs umwandelt, inklusive Profile, Syntax-Highlighting, Formelsatz, Verlauf, Batch-Warteschlange und datenschutzfreundlicher Verarbeitung. Ab Version 1.5 kannst du die App 7 Tage kostenlos nutzen und sie mit einem einmaligen Kauf von $2.99 dauerhaft freischalten.",
+      "MarkdownToPDF PRO ist eine macOS-App mit Finder-Integration, die Markdown-Dateien lokal in hochwertige PDFs umwandelt, inklusive Profile, Syntax-Highlighting, Formelsatz, Verlauf, Batch-Warteschlange und datenschutzfreundlicher Verarbeitung. Ab Version 1.5 kannst du ohne Kauf 20 PDFs kostenlos exportieren, danach eine 7-tägige kostenlose Testphase nutzen und die App anschließend mit einem einmaligen Kauf von US$1 dauerhaft freischalten. Kein Abo und keine automatische Abrechnung.",
     navPrimaryAria: "Hauptnavigation",
     langSwitcherLabel: "Sprachauswahl",
     skipLink: "Zum Inhalt springen",
@@ -853,7 +854,7 @@ const translations = {
     heroTitle: "Markdown direkt aus dem Finder in saubere PDFs umwandeln.",
     heroLead:
       "MarkdownToPDF PRO ist für Autor:innen, Entwickler:innen und Dokumentationsteams gedacht, die lokale, wiederholbare Exporte mit Batch-Warteschlangen, Profilen und druckfertiger Ausgabe möchten.",
-    heroDownload: "7 Tage kostenlos starten",
+    heroDownload: "20 PDFs kostenlos exportieren",
     heroPrimary: "Vorschauen ansehen",
     heroSecondary: "Datenschutzrichtlinie lesen",
     heroBadge1: "`.md`- und `.markdown`-Dateien in freigegebenen Finder-Ordnern per Rechtsklick umwandeln",
@@ -867,7 +868,8 @@ const translations = {
     metaPrivacyLabel: "Datenschutz",
     metaPrivacyValue: "Kein Konto, kein Cloud-Upload",
     metaPricingLabel: "Ab Version 1.5",
-    metaPricingValue: "7 Tage kostenlos, $2.99 einmalig für lebenslange Freischaltung",
+    metaPricingValue:
+      "20 kostenlose Exporte, 7 Tage Testphase, US$1 lebenslang. Kein Abo.",
     heroNoteTopLabel: "Queue-zentrierter Ablauf",
     heroNoteTopBody:
       "Finder-Anfragen werden an die Haupt-App übergeben, damit längere Konvertierungen stabiler bleiben und leichter zu verwalten sind.",
@@ -979,7 +981,7 @@ const translations = {
       "Nur auf die Markdown-Dateien und Ordner, die du ausdrücklich auswählst, sowie auf lokale App-Einstellungen, Profile, Verlaufsdaten und Queue-Metadaten.",
     privacyCard2Title: "Was die App nicht benötigt",
     privacyCard2Body:
-      "Keine Kontoerstellung, kein Abo-Login, kein Analytics-SDK und kein Dokument-Upload-Dienst in der aktuellen App.",
+      "Keine Kontoerstellung, kein Abo, keine automatische Abrechnung, kein Analytics-SDK und kein Dokument-Upload-Dienst in der aktuellen App.",
     privacyCard3Title: "Wie Daten lokal bleiben",
     privacyCard3Body:
       "Die App läuft sandboxed und nutzt benutzergewählte Dateiberechtigungen plus einen App-Group-Container für die Übergabe zwischen Finder-Erweiterung und Haupt-App.",
@@ -1010,7 +1012,7 @@ const translations = {
   fr: {
     pageTitle: "MarkdownToPDF PRO pour macOS",
     pageDescription:
-      "MarkdownToPDF PRO est une application macOS intégrée au Finder qui transforme localement des fichiers Markdown en PDF soignés, avec profils, coloration syntaxique, rendu mathématique, historique, file d'attente par lots et traitement respectueux de la vie privée. Depuis la version 1.5, vous pouvez l'utiliser gratuitement pendant 7 jours et la débloquer à vie avec un paiement unique de $2.99.",
+      "MarkdownToPDF PRO est une application macOS intégrée au Finder qui transforme localement des fichiers Markdown en PDF soignés, avec profils, coloration syntaxique, rendu mathématique, historique, file d'attente par lots et traitement respectueux de la vie privée. Depuis la version 1.5, vous pouvez exporter 20 PDF gratuitement sans acheter quoi que ce soit, puis profiter d'un essai gratuit de 7 jours et enfin débloquer l'accès à vie avec un achat unique de US$1. Aucun abonnement ni facturation automatique.",
     navPrimaryAria: "Navigation principale",
     langSwitcherLabel: "Sélecteur de langue",
     skipLink: "Aller au contenu",
@@ -1021,7 +1023,7 @@ const translations = {
     heroTitle: "Transformer Markdown en PDF soignés sans quitter Finder.",
     heroLead:
       "MarkdownToPDF PRO s'adresse aux rédacteurs, ingénieurs et équipes de documentation qui veulent des exports locaux, répétables, avec files d'attente, profils et rendu propre prêt à l'impression.",
-    heroDownload: "Essayer 7 jours gratuitement",
+    heroDownload: "Exporter 20 PDF gratuits",
     heroPrimary: "Voir les aperçus",
     heroSecondary: "Lire la politique de confidentialité",
     heroBadge1: "Clic droit sur les fichiers `.md` et `.markdown` dans les dossiers Finder autorisés",
@@ -1035,7 +1037,8 @@ const translations = {
     metaPrivacyLabel: "Confidentialité",
     metaPrivacyValue: "Aucun compte, aucun envoi vers le cloud",
     metaPricingLabel: "Depuis la version 1.5",
-    metaPricingValue: "7 jours gratuits, déblocage à vie pour $2.99",
+    metaPricingValue:
+      "20 exports gratuits, essai 7 jours, accès à vie pour US$1. Sans abonnement.",
     heroNoteTopLabel: "Flux centré sur la file",
     heroNoteTopBody:
       "Les demandes du Finder sont confiées à l'application principale, ce qui rend les conversions plus longues plus stables et plus faciles à suivre.",
@@ -1147,7 +1150,7 @@ const translations = {
       "Uniquement les fichiers et dossiers Markdown que vous choisissez explicitement, ainsi que les réglages locaux, profils, historiques et métadonnées de file.",
     privacyCard2Title: "Ce que l'application ne demande pas",
     privacyCard2Body:
-      "Pas de création de compte, pas de connexion d'abonnement, pas de SDK analytique et pas de service d'envoi de documents dans l'application actuelle.",
+      "Pas de création de compte, pas d'abonnement, pas de facturation automatique, pas de SDK analytique et pas de service d'envoi de documents dans l'application actuelle.",
     privacyCard3Title: "Comment les données restent locales",
     privacyCard3Body:
       "L'application est sandboxée et utilise des permissions de fichiers choisies par l'utilisateur ainsi qu'un conteneur App Group pour le passage des tâches entre Finder et l'application.",
@@ -1178,7 +1181,7 @@ const translations = {
   it: {
     pageTitle: "MarkdownToPDF PRO per macOS",
     pageDescription:
-      "MarkdownToPDF PRO è un'app macOS integrata con Finder che converte localmente file Markdown in PDF curati, con profili, evidenziazione della sintassi, rendering matematico, cronologia, coda batch e trattamento attento alla privacy. Dalla versione 1.5 puoi usarla gratis per 7 giorni e sbloccarla per sempre con un pagamento unico di $2.99.",
+      "MarkdownToPDF PRO è un'app macOS integrata con Finder che converte localmente file Markdown in PDF curati, con profili, evidenziazione della sintassi, rendering matematico, cronologia, coda batch e trattamento attento alla privacy. Dalla versione 1.5 puoi esportare 20 PDF gratis senza acquistare nulla, poi usare una prova gratuita di 7 giorni e infine sbloccare l'accesso a vita con un acquisto unico da US$1. Nessun abbonamento e nessun addebito automatico.",
     navPrimaryAria: "Navigazione principale",
     langSwitcherLabel: "Selettore lingua",
     skipLink: "Vai al contenuto",
@@ -1189,7 +1192,7 @@ const translations = {
     heroTitle: "Trasforma Markdown in PDF curati senza uscire da Finder.",
     heroLead:
       "MarkdownToPDF PRO è pensata per scrittori, ingegneri e team di documentazione che vogliono esportazioni locali e ripetibili, con code batch, profili e output puliti pronti per la stampa.",
-    heroDownload: "Prova gratis per 7 giorni",
+    heroDownload: "Esporta 20 PDF gratis",
     heroPrimary: "Esplora le anteprime",
     heroSecondary: "Leggi l'informativa sulla privacy",
     heroBadge1: "Clic destro su file `.md` e `.markdown` nelle cartelle Finder autorizzate",
@@ -1203,7 +1206,8 @@ const translations = {
     metaPrivacyLabel: "Privacy",
     metaPrivacyValue: "Nessun account, nessun upload sul cloud",
     metaPricingLabel: "Dalla versione 1.5",
-    metaPricingValue: "7 giorni gratis, sblocco a vita con pagamento unico da $2.99",
+    metaPricingValue:
+      "20 esportazioni gratis, prova 7 giorni, sblocco a vita per US$1. Nessun abbonamento.",
     heroNoteTopLabel: "Flusso centrato sulla coda",
     heroNoteTopBody:
       "Le richieste del Finder vengono passate all'app principale, così le conversioni più lunghe restano stabili e più facili da gestire.",
@@ -1315,7 +1319,7 @@ const translations = {
       "Solo ai file e alle cartelle Markdown che scegli esplicitamente, oltre a impostazioni locali, profili, cronologia e metadati della coda.",
     privacyCard2Title: "Cosa l'app non richiede",
     privacyCard2Body:
-      "Nessuna creazione di account, nessun login in abbonamento, nessun SDK di analytics e nessun servizio di upload documenti nell'app attuale.",
+      "Nessuna creazione di account, nessun abbonamento, nessun addebito automatico, nessun SDK di analytics e nessun servizio di upload documenti nell'app attuale.",
     privacyCard3Title: "Come i dati restano locali",
     privacyCard3Body:
       "L'app è sandboxata e usa permessi ai file scelti dall'utente insieme a un contenitore App Group per il passaggio dei lavori tra estensione Finder e app principale.",
