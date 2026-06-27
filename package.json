@@ -1,0 +1,9 @@
+{
+  "name": "markdowntopdf-web-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css script.js dist/ && cp -R pictures app-store-assets dist/ && find dist -name .DS_Store -delete && rm -rf dist/app-store-assets/videos && rm -f dist/app-store-assets/render-english-promo-video.mjs",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name markdowntopdfwebpage --branch main --commit-dirty=false"
+  }
+}
