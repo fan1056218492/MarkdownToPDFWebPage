@@ -1528,15 +1528,79 @@ for (const [language, additions] of Object.entries(promoTranslationAdditions)) {
   Object.assign(translations[language], additions);
 }
 
+Object.assign(translations, additionalTranslations);
+
 const languageMeta = {
-  en: { htmlLang: "en" },
-  "zh-Hans": { htmlLang: "zh-CN" },
-  "zh-Hant": { htmlLang: "zh-TW" },
-  ja: { htmlLang: "ja" },
-  ko: { htmlLang: "ko" },
-  de: { htmlLang: "de" },
-  fr: { htmlLang: "fr" },
-  it: { htmlLang: "it" },
+  en: { htmlLang: "en", base: "en" },
+  "en-AU": { htmlLang: "en-AU", base: "en" },
+  "en-CA": { htmlLang: "en-CA", base: "en" },
+  "en-NZ": { htmlLang: "en-NZ", base: "en" },
+  de: { htmlLang: "de", base: "de" },
+  "de-AT": { htmlLang: "de-AT", base: "de" },
+  "de-BE": { htmlLang: "de-BE", base: "de" },
+  "de-CH": { htmlLang: "de-CH", base: "de" },
+  fr: { htmlLang: "fr", base: "fr" },
+  "fr-BE": { htmlLang: "fr-BE", base: "fr" },
+  "fr-CA": { htmlLang: "fr-CA", base: "fr" },
+  "fr-CH": { htmlLang: "fr-CH", base: "fr" },
+  es: { htmlLang: "es", base: "es" },
+  "es-ES": { htmlLang: "es-ES", base: "es" },
+  "es-MX": { htmlLang: "es-MX", base: "es" },
+  pt: { htmlLang: "pt-PT", base: "pt" },
+  "pt-BR": { htmlLang: "pt-BR", base: "pt" },
+  "zh-Hans": { htmlLang: "zh-CN", base: "zh-Hans" },
+  "zh-Hant": { htmlLang: "zh-TW", base: "zh-Hant" },
+  ja: { htmlLang: "ja", base: "ja" },
+  ko: { htmlLang: "ko", base: "ko" },
+  it: { htmlLang: "it", base: "it" },
+  "it-CH": { htmlLang: "it-CH", base: "it" },
+  ar: { htmlLang: "ar", base: "ar", direction: "rtl" },
+  da: { htmlLang: "da", base: "da" },
+  fi: { htmlLang: "fi", base: "fi" },
+  sv: { htmlLang: "sv", base: "sv" },
+  nb: { htmlLang: "nb", base: "nb" },
+  nl: { htmlLang: "nl", base: "nl" },
+  "nl-BE": { htmlLang: "nl-BE", base: "nl" },
+};
+
+// Regional options reuse their language's complete copy and preserve the selected locale.
+for (const [language, metadata] of Object.entries(languageMeta)) {
+  if (!Object.hasOwn(translations, language)) {
+    translations[language] = translations[metadata.base];
+  }
+}
+
+translations["pt-BR"] = {
+  ...translations.pt,
+  heroEyebrow: "Extensão Finder + aplicativo nativo para macOS",
+  heroLead: "Para escrita e documentação técnica: conversões locais e consistentes, filas em lote e perfis para documentos prontos para imprimir e compartilhar.",
+  metaLanguageLabel: "Idiomas do aplicativo",
+  heroNoteBottomBody: "Documentos, perfis e histórico permanecem no Mac. Não é necessário criar uma conta.",
+  heroImageAlt: "Painel de conversões do MarkdownToPDF PRO",
+  signal3Body: "Consulte PDFs concluídos, falhas, novas tentativas e locais de saída no aplicativo.",
+  workflowLead: "Comece no Finder, importe documentos ou arraste-os para o aplicativo. Veja o PDF, escolha um perfil e exporte um documento ou um lote.",
+  workflowStep1Title: "Adicione documentos no Finder ou no aplicativo",
+  workflowStep1Body: "Ative a extensão Finder e autorize as pastas para converter com o botão direito. Também é possível importar documentos .md e .markdown pela barra de ferramentas ou arrastá-los para o aplicativo.",
+  workflowStep2Body: "Escolha um modelo integrado ou perfil salvo para cada documento. Verifique o layout e as páginas, amplie os detalhes e ajuste as opções antes de exportar.",
+  workflowStep3Title: "Controle a saída PDF em um só lugar",
+  featuresEyebrow: "Controle",
+  feature1Body: "Comece com modelos integrados e salve, copie ou renomeie perfis. Ajuste A4, A5, Letter, Legal, margens, temas, fontes, tabelas, sumário, cabeçalhos e rodapés.",
+  feature3Body: "O aplicativo pode não fazer nada, mostrar o PDF no Finder ou abri-lo imediatamente.",
+  feature4Body: "Suporta títulos, listas, tarefas, citações, código com destaque, tabelas, links, imagens, Mermaid, fórmulas e tipografia.",
+  feature6Body: "O aplicativo usa permissões de acesso escolhidas por você e salva fila, perfis, opções e histórico no dispositivo, dentro da sandbox do macOS.",
+  feature8Body: "Verifique o layout e o número de páginas com zoom antes de salvar. Cada documento pode usar um modelo ou perfil próprio.",
+  privacyLead: "Esta política descreve o processamento de documentos e o armazenamento de preferências do aplicativo atual. Verificada em 3 de outubro de 2026.",
+  privacyCard1Title: "O que o aplicativo acessa",
+  privacyCard2Body: "Sem conta, assinatura, cobrança automática, análise de uso ou serviço de envio de documentos.",
+  privacyCard3Body: "Usa permissões de documentos escolhidas por você e um contêiner App Group para enviar solicitações do Finder ao aplicativo.",
+  policy1Body: "Processa documentos selecionados, destinos de saída e opções locais, como perfis, nomes, histórico e solicitações pendentes.",
+  policy2Body: "É utilizada para gerar PDFs, gerenciar a fila, abrir ou mostrar resultados, lembrar preferências e apresentar conversões e erros.",
+  policy3Body: "O aplicativo atual não inclui conversão na nuvem, análise de uso, publicidade ou contas. No uso normal não envia o conteúdo dos documentos para servidores remotos.",
+  policy4Body: "Preferências, perfis, fila e histórico ficam no dispositivo. Os PDFs permanecem na pasta escolhida. Você pode remover o aplicativo, apagar registros ou revogar o acesso às pastas.",
+  policy5Title: "5. Seus controles",
+  policy5Body: "Você escolhe os documentos e pastas acessíveis, a ativação da extensão Finder, o destino de saída e os registros mantidos no histórico.",
+  policy6Body: "Se o funcionamento do aplicativo mudar, esta política deve ser atualizada com o site e as notas da versão para manter a descrição correta.",
+  footerContactLabel: "Contato:",
 };
 
 const localizedPromoDirectories = {
@@ -1547,6 +1611,9 @@ const localizedPromoDirectories = {
   de: "德语",
   fr: "法语",
   it: "意大利语",
+  es: "西班牙语（西班牙）",
+  "es-MX": "西班牙语（墨西哥）",
+  pt: "葡萄牙语",
 };
 
 const promoItems = [
@@ -1593,16 +1660,45 @@ const promoItems = [
 ];
 
 const metaDescription = document.querySelector('meta[name="description"]');
-const langButtons = document.querySelectorAll(".lang-button");
+const languageSelect = document.getElementById("language-select");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const altNodes = document.querySelectorAll("[data-i18n-alt]");
 const ariaLabelNodes = document.querySelectorAll("[data-i18n-aria-label]");
 const promoGallery = document.getElementById("promo-gallery");
 
-const storedLanguage = localStorage.getItem("markdownToPDFWebLanguage");
-const normalizedStoredLanguage = storedLanguage === "zh" ? "zh-Hans" : storedLanguage;
+function resolveLanguage(language) {
+  if (typeof language !== "string") return null;
 
-let currentLanguage = normalizedStoredLanguage in translations ? normalizedStoredLanguage : "en";
+  const normalized = language.replaceAll("_", "-").toLowerCase();
+  const exact = Object.keys(languageMeta).find((key) => key.toLowerCase() === normalized);
+  if (exact) return exact;
+
+  if (normalized === "zh" || normalized.startsWith("zh-")) {
+    if (normalized.startsWith("zh-hans")) return "zh-Hans";
+    return /(?:hant|tw|hk|mo)/.test(normalized) ? "zh-Hant" : "zh-Hans";
+  }
+
+  const base = normalized.split("-")[0];
+  if (base === "no") return "nb";
+  return Object.hasOwn(languageMeta, base) ? base : null;
+}
+
+function preferredLanguage() {
+  try {
+    const stored = resolveLanguage(localStorage.getItem("markdownToPDFWebLanguage"));
+    if (stored) return stored;
+  } catch {
+    // Language switching remains available when browser storage is blocked.
+  }
+
+  for (const language of navigator.languages || [navigator.language]) {
+    const resolved = resolveLanguage(language);
+    if (resolved) return resolved;
+  }
+  return "en";
+}
+
+let currentLanguage = preferredLanguage();
 
 function translateKey(language, key) {
   const dictionary = translations[language] || translations.en;
@@ -1615,10 +1711,11 @@ function translateKey(language, key) {
 }
 
 function applyLanguage(language) {
-  const nextLanguage = language in translations ? language : "en";
+  const nextLanguage = resolveLanguage(language) || "en";
 
   currentLanguage = nextLanguage;
   document.documentElement.lang = languageMeta[nextLanguage]?.htmlLang || "en";
+  document.documentElement.dir = languageMeta[nextLanguage]?.direction || "ltr";
   document.title = translateKey(nextLanguage, "pageTitle");
 
   if (metaDescription) {
@@ -1640,11 +1737,7 @@ function applyLanguage(language) {
     node.setAttribute("aria-label", translateKey(nextLanguage, key));
   });
 
-  langButtons.forEach((button) => {
-    const isActive = button.dataset.lang === nextLanguage;
-    button.classList.toggle("is-active", isActive);
-    button.setAttribute("aria-pressed", String(isActive));
-  });
+  if (languageSelect) languageSelect.value = nextLanguage;
 
   renderPromos(nextLanguage);
 }
@@ -1652,11 +1745,12 @@ function applyLanguage(language) {
 function getLocalizedPromoSrc(language, feature) {
   const filename = `mac-app-store-${feature}-promo-2880x1800.png`;
 
-  if (language === "en") {
+  const baseLanguage = languageMeta[language]?.base || "en";
+  const localizedDirectory = localizedPromoDirectories[language] || localizedPromoDirectories[baseLanguage];
+
+  if (!localizedDirectory) {
     return `app-store-assets/${filename}`;
   }
-
-  const localizedDirectory = localizedPromoDirectories[language] || language;
 
   return `app-store-assets/localized/${localizedDirectory}/${filename}`;
 }
@@ -1710,12 +1804,16 @@ function renderPromos(language) {
   promoGallery.replaceChildren(fragment);
 }
 
-langButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const nextLanguage = button.dataset.lang || "en";
-    localStorage.setItem("markdownToPDFWebLanguage", nextLanguage);
+if (languageSelect) {
+  languageSelect.addEventListener("change", () => {
+    const nextLanguage = resolveLanguage(languageSelect.value) || "en";
+    try {
+      localStorage.setItem("markdownToPDFWebLanguage", nextLanguage);
+    } catch {
+      // The current page can still use the selection without persisting it.
+    }
     applyLanguage(nextLanguage);
   });
-});
+}
 
 applyLanguage(currentLanguage);

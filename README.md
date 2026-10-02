@@ -2,6 +2,11 @@
 
 Static multilingual marketing page for MarkdownToPDF PRO, built and deployed with Cloudflare Pages.
 
+The language dropdown matches the app's 30 language and regional options. The eight
+additional language dictionaries live in `additional-translations.js`, loaded before
+`script.js`. Regional options reuse their language's copy. The page remembers manual
+selections, otherwise follows the browser language, and supports Arabic RTL layout.
+
 Production URL: <https://markdowntopdfwebpage.pages.dev/>
 
 ## Cloudflare Pages

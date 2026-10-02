@@ -14,6 +14,7 @@
     />
     <link rel="icon" type="image/png" href="pictures/app-icon.png" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="additional-translations.js"></script>
     <script defer src="script.js"></script>
   </head>
   <body>
@@ -27,7 +28,7 @@
 
     <div class="site-shell" id="top">
       <header class="site-header">
-        <a class="brand" href="#top" aria-label="MarkdownToPDF PRO">
+        <a class="brand" href="#top" aria-label="MarkdownToPDF PRO" dir="ltr">
           <img src="pictures/app-icon.png" alt="" />
           <span>MarkdownToPDF PRO</span>
         </a>
@@ -40,16 +41,39 @@
         </nav>
 
         <div class="header-actions">
-          <div class="lang-switch" role="group" aria-label="Language switcher" data-i18n-aria-label="langSwitcherLabel">
-            <button class="lang-button is-active" type="button" data-lang="en">EN</button>
-            <button class="lang-button" type="button" data-lang="zh-Hans" aria-label="简体中文">简中</button>
-            <button class="lang-button" type="button" data-lang="zh-Hant" aria-label="繁體中文">繁中</button>
-            <button class="lang-button" type="button" data-lang="ja" aria-label="日本語">日本語</button>
-            <button class="lang-button" type="button" data-lang="ko" aria-label="한국어">한국어</button>
-            <button class="lang-button" type="button" data-lang="de" aria-label="Deutsch">DE</button>
-            <button class="lang-button" type="button" data-lang="fr" aria-label="Français">FR</button>
-            <button class="lang-button" type="button" data-lang="it" aria-label="Italiano">IT</button>
-          </div>
+          <label class="visually-hidden" for="language-select" data-i18n="langSwitcherLabel">Language switcher</label>
+          <select class="language-select" id="language-select">
+            <option value="en" lang="en">English</option>
+            <option value="en-AU" lang="en-AU">English (Australia)</option>
+            <option value="en-CA" lang="en-CA">English (Canada)</option>
+            <option value="en-NZ" lang="en-NZ">English (New Zealand)</option>
+            <option value="de" lang="de">Deutsch</option>
+            <option value="de-AT" lang="de-AT">Deutsch (Österreich)</option>
+            <option value="de-BE" lang="de-BE">Deutsch (Belgien)</option>
+            <option value="de-CH" lang="de-CH">Deutsch (Schweiz)</option>
+            <option value="fr" lang="fr">Français</option>
+            <option value="fr-BE" lang="fr-BE">Français (Belgique)</option>
+            <option value="fr-CA" lang="fr-CA">Français (Canada)</option>
+            <option value="fr-CH" lang="fr-CH">Français (Suisse)</option>
+            <option value="es" lang="es">Español</option>
+            <option value="es-ES" lang="es-ES">Español (España)</option>
+            <option value="es-MX" lang="es-MX">Español (México)</option>
+            <option value="pt" lang="pt-PT">Português (Portugal)</option>
+            <option value="pt-BR" lang="pt-BR">Português (Brasil)</option>
+            <option value="zh-Hans" lang="zh-Hans">简体中文</option>
+            <option value="zh-Hant" lang="zh-Hant">繁體中文</option>
+            <option value="ja" lang="ja">日本語</option>
+            <option value="ko" lang="ko">한국어</option>
+            <option value="it" lang="it">Italiano</option>
+            <option value="it-CH" lang="it-CH">Italiano (Svizzera)</option>
+            <option value="ar" lang="ar" dir="rtl">العربية</option>
+            <option value="da" lang="da">Dansk</option>
+            <option value="fi" lang="fi">Suomi</option>
+            <option value="sv" lang="sv">Svenska</option>
+            <option value="nb" lang="nb">Norsk bokmål</option>
+            <option value="nl" lang="nl">Nederlands</option>
+            <option value="nl-BE" lang="nl-BE">Nederlands (België)</option>
+          </select>
         </div>
       </header>
 
@@ -87,7 +111,7 @@
             <div class="meta-grid">
               <article class="meta-card">
                 <span class="meta-label" data-i18n="metaPlatformLabel">Platform</span>
-                <strong class="meta-value" data-i18n="metaPlatformValue">macOS 14+</strong>
+                <strong class="meta-value" data-i18n="metaPlatformValue" dir="ltr">macOS 14+</strong>
               </article>
               <article class="meta-card">
                 <span class="meta-label" data-i18n="metaLanguageLabel">UI Languages</span>
@@ -506,7 +530,7 @@
         <p data-i18n="footerBody">Local Markdown to PDF conversion for macOS, with Finder integration, PDF preview and reusable render configurations.</p>
         <p class="footer-contact">
           <span data-i18n="footerContactLabel">Contact:</span>
-          <a href="mailto:verneauorane104@gmail.com">verneauorane104@gmail.com</a>
+          <a href="mailto:verneauorane104@gmail.com" dir="ltr">verneauorane104@gmail.com</a>
         </p>
       </footer>
     </div>
