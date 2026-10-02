@@ -1,8 +1,7 @@
 const translations = {
   en: {
     pageTitle: "MarkdownToPDF PRO for macOS",
-    pageDescription:
-      "MarkdownToPDF PRO is a Finder-powered macOS app for turning Markdown files into polished PDFs with profiles, syntax highlighting, math rendering, history, and privacy-first local processing. Starting in version 1.5, export 20 PDFs free without buying anything, then try it free for 7 days, and unlock forever with a one-time US$1 purchase. No subscriptions or automatic billing.",
+    pageDescription: "MarkdownToPDF PRO converts Markdown to polished PDFs locally on your Mac, with Finder integration, PDF preview, reusable profiles, batch queues, diagrams, math and history. Buy once on the App Store and use every feature after installation. The price is shown in your local storefront.",
     navPrimaryAria: "Primary navigation",
     langSwitcherLabel: "Language switcher",
     skipLink: "Skip to content",
@@ -13,28 +12,25 @@ const translations = {
     heroTitle: "Turn Markdown into polished PDFs without leaving Finder.",
     heroLead:
       "MarkdownToPDF PRO is built for writers, engineers, and documentation teams who want local, repeatable exports with batch queues, profiles, and clean print-ready output.",
-    heroDownload: "Use 20 free PDF exports",
+    heroDownload: "View on the App Store",
     heroPrimary: "Explore previews",
     heroSecondary: "Read privacy policy",
     heroBadge1: "Right-click .md and .markdown files in authorized Finder folders",
     heroBadge2: "Queue batch jobs and retry failures",
     heroBadge3: "Tune page size, margins, theme, fonts, and naming rules",
-    heroBadge4: "Keep everything local inside the app sandbox",
+    heroBadge4: "Process your documents locally on your Mac",
     metaPlatformLabel: "Platform",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "UI Languages",
-    metaLanguageValue: "8 built-in options",
+    metaLanguageValue: "30 language and regional options",
     metaPrivacyLabel: "Privacy",
     metaPrivacyValue: "No account, no cloud upload",
-    metaPricingLabel: "Version 1.5+",
-    metaPricingValue:
-      "20 free exports, 7-day trial, US$1 lifetime unlock. No subscription or auto billing.",
+    metaPricingLabel: "Purchase",
+    metaPricingValue: "Buy once on the App Store. All features included; see the store for pricing.",
     heroNoteTopLabel: "Queue-first workflow",
-    heroNoteTopBody:
-      "Finder requests are handed to the main app, so longer conversions stay stable and easier to manage.",
+    heroNoteTopBody: "Track queued files and conversions in progress from one dashboard, with results saved in history.",
     heroNoteBottomLabel: "Privacy-first local workflow",
-    heroNoteBottomBody:
-      "The app uses sandboxed file access and local storage instead of cloud rendering or sign-in flows.",
+    heroNoteBottomBody: "Your documents, profiles and conversion history stay on your Mac. No account needed.",
     heroImageAlt: "MarkdownToPDF PRO queue dashboard",
     signal1Title: "Right from Finder",
     signal1Body:
@@ -46,20 +42,16 @@ const translations = {
     signal3Body:
       "Successful exports, failed jobs, retry flows, and output paths stay visible instead of disappearing into a menu.",
     signal4Title: "Localized app UI",
-    signal4Body:
-      "The desktop app already ships with English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, and Italian.",
+    signal4Body: "Choose from 30 language and regional options in Settings, including Chinese, Spanish, Portuguese, Arabic and Nordic languages, or follow macOS.",
     workflowEyebrow: "Workflow",
     workflowTitle: "A calmer way to export Markdown over and over again.",
-    workflowLead:
-      "The product architecture keeps the Finder extension light and lets the main app handle rendering, settings, history, and diagnostics.",
+    workflowLead: "Start from Finder, import files or drag them into the app. Preview the PDF, choose a render configuration, and export one document or a batch.",
     workflowStep1Index: "Step 1",
-    workflowStep1Title: "Select Markdown in an authorized Finder folder",
-    workflowStep1Body:
-      "The Finder extension only appears in folders you explicitly authorize, and it targets `.md` and `.markdown` files so the flow starts from a familiar right-click menu.",
+    workflowStep1Title: "Add files from Finder or the app",
+    workflowStep1Body: "Enable the Finder extension and authorize your folders for right-click conversion, or import .md and .markdown files from the toolbar or by dragging them into the app.",
     workflowStep2Index: "Step 2",
-    workflowStep2Title: "Let the queue keep long jobs organized",
-    workflowStep2Body:
-      "Requests move through a shared queue, giving the main app room to batch, retry, and preserve history without slowing Finder down.",
+    workflowStep2Title: "Preview the PDF before exporting",
+    workflowStep2Body: "Choose a built-in template or saved profile for each queued file. Open the PDF preview to check layout and page count, zoom in, and adjust your settings before export.",
     workflowStep3Index: "Step 3",
     workflowStep3Title: "Control the PDF output in one place",
     workflowStep3Body:
@@ -69,8 +61,7 @@ const translations = {
     featuresLead:
       "The current release focuses on local rendering quality, practical defaults, and enough controls to keep exported PDFs consistent across repeated runs.",
     feature1Title: "Profile-driven rendering",
-    feature1Body:
-      "Pick page size, margins, theme, header and footer, table of contents, body font, code font, size, and line height from reusable profiles.",
+    feature1Body: "Start with built-in templates, then save, copy or rename your own profiles. Customize A4, A5, Letter or Legal pages, margins, themes, fonts, tables, contents, headers and footers.",
     feature2Title: "Output rules that stay predictable",
     feature2Body:
       "Choose same-name exports, append dates, or custom patterns, then decide whether to replace files, fail fast, or create copies.",
@@ -89,6 +80,8 @@ const translations = {
     feature7Title: "Rounded table corners",
     feature7Body:
       "Apply table corner radius options so exported tables can keep a softer, card-like shape without losing borders or alignment.",
+    feature8Title: "PDF preview before export",
+    feature8Body: "Check layout and page count with zoom controls before saving. Each queued file can use its own built-in template or saved render configuration.",
     renderEyebrow: "Rendered Output",
     renderTitle: "Math, diagrams, and syntax-aware code blocks survive the trip to PDF.",
     renderLead:
@@ -124,8 +117,7 @@ const translations = {
       "Mermaid flowcharts and other diagram blocks render cleanly, while table-of-contents navigation and heading-based PDF outline and bookmark entries make long exports easier to browse.",
     supportEyebrow: "Support Matrix",
     supportTitle: "What the app supports in the current release.",
-    supportLead:
-      "This page is based on the current source code, release notes, support matrix, and repository documentation for MarkdownToPDF PRO.",
+    supportLead: "From everyday notes to technical reports, combine flexible page settings with diagrams, formulas, code and PDF navigation.",
     supportGoodTitle: "Available today",
     supportGood1: "Headings, paragraphs, horizontal rules, and block quotes",
     supportGood2: "Ordered lists, unordered lists, task lists, inline code, fenced code blocks, and syntax highlighting",
@@ -133,8 +125,7 @@ const translations = {
     supportGood4: "Themes, page sizes, margins, table-of-contents navigation, PDF outline bookmarks, naming rules, and post-export actions",
     privacyEyebrow: "Privacy Policy",
     privacyTitle: "MarkdownToPDF PRO is designed to work on your Mac, not in the cloud.",
-    privacyLead:
-      "The policy below reflects the current app architecture, entitlement files, and repository documentation as of April 19, 2026.",
+    privacyLead: "This policy describes how the current app processes your documents and stores your preferences, reviewed on October 3, 2026.",
     privacyCard1Title: "What the app accesses",
     privacyCard1Body:
       "Only the Markdown files and folders you explicitly choose, plus local app settings, profiles, history records, and queue metadata.",
@@ -145,7 +136,7 @@ const translations = {
     privacyCard3Body:
       "The app is sandboxed and uses user-selected file permissions plus an App Group container for Finder-to-app job handoff.",
     privacyEffectiveLabel: "Effective date",
-    privacyEffectiveValue: "April 19, 2026",
+    privacyEffectiveValue: "October 3, 2026",
     policy1Title: "1. Information the app processes",
     policy1Body:
       "MarkdownToPDF PRO processes the source documents you select, the output locations you choose, and locally stored settings such as render profiles, naming defaults, conversion history, and pending queue records.",
@@ -164,14 +155,12 @@ const translations = {
     policy6Title: "6. Policy updates",
     policy6Body:
       "If the app architecture changes in a future release, this policy should be updated together with the release notes and website so the documented behavior stays accurate.",
-    footerBody:
-      "Built from the current MarkdownToPDF PRO codebase, release notes, support matrix, and localized preview images.",
+    footerBody: "Local Markdown to PDF conversion for macOS, with Finder integration, PDF preview and reusable render configurations.",
     footerContactLabel: "Contact:",
   },
   "zh-Hans": {
     pageTitle: "MarkdownToPDF PRO for macOS",
-    pageDescription:
-      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 扩展应用，可将 Markdown 文件本地转换为精致 PDF，并提供配置模板、语法高亮、数学公式渲染、历史记录、批量队列与隐私优先的处理方式。1.5 版本起，在不购买任何商品的情况下可免费导出 20 次 PDF，之后可进行 7 天免费试用，最后 US$1 一次性购买即可永久解锁；无任何订阅和自动扣费。",
+    pageDescription: "MarkdownToPDF PRO 可在 Mac 上本地将 Markdown 转为精致 PDF，支持 Finder 右键转换、PDF 预览、可复用渲染配置、批量队列、图表、公式和历史记录。在 App Store 一次性购买，安装后即可使用全部功能，具体价格以所在地区商店展示为准。",
     navPrimaryAria: "主导航",
     langSwitcherLabel: "语言切换",
     skipLink: "跳转到正文",
@@ -182,27 +171,25 @@ const translations = {
     heroTitle: "不离开 Finder，把 Markdown 直接导出成精致 PDF。",
     heroLead:
       "MarkdownToPDF PRO 面向写作者、工程师和文档团队，强调本地处理、可重复导出、批量队列、配置模板，以及更适合打印与分享的输出效果。",
-    heroDownload: "免费导出 20 次 PDF",
+    heroDownload: "在 App Store 查看",
     heroPrimary: "查看预览图",
     heroSecondary: "阅读隐私政策",
     heroBadge1: "在你主动授权的 Finder 目录中，可右键 `.md` 与 `.markdown` 文件开始转换",
     heroBadge2: "支持批量排队、失败重试与结果追踪",
     heroBadge3: "可配置纸张、边距、主题、字体与命名规则",
-    heroBadge4: "所有处理都尽量保留在本地沙盒内完成",
+    heroBadge4: "在 Mac 上本地处理文档",
     metaPlatformLabel: "平台",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "界面语言",
-    metaLanguageValue: "内置 8 种语言",
+    metaLanguageValue: "30 个语言及地区选项",
     metaPrivacyLabel: "隐私",
     metaPrivacyValue: "无需账号，不上传云端",
-    metaPricingLabel: "1.5 版本起",
-    metaPricingValue: "20 次免费导出，7 天试用，US$1 永久解锁；无订阅和自动扣费",
+    metaPricingLabel: "购买方式",
+    metaPricingValue: "App Store 一次性购买，包含全部功能；价格以商店展示为准。",
     heroNoteTopLabel: "以队列为核心",
-    heroNoteTopBody:
-      "Finder 只负责触发请求，真正的长任务交给主应用处理，稳定性和可管理性都更好。",
+    heroNoteTopBody: "在同一个仪表盘中查看排队文件与正在转换的任务，完成结果保存在历史记录中。",
     heroNoteBottomLabel: "隐私优先的本地工作流",
-    heroNoteBottomBody:
-      "应用采用沙盒文件权限与本地存储，而不是云端渲染或登录流程。",
+    heroNoteBottomBody: "文档、渲染配置和转换历史保留在你的 Mac 上，无需注册账号。",
     heroImageAlt: "MarkdownToPDF PRO 队列仪表盘界面",
     signal1Title: "从 Finder 直接开始",
     signal1Body:
@@ -214,20 +201,16 @@ const translations = {
     signal3Body:
       "成功记录、失败任务、重试流程和输出路径都留在主界面里，而不是藏在菜单之后。",
     signal4Title: "应用本身支持多语言",
-    signal4Body:
-      "桌面应用已内置英文、简体中文、繁体中文、日语、韩语、德语、法语和意大利语。",
+    signal4Body: "可在设置中选择 30 个语言及地区选项，涵盖中文、西班牙语、葡萄牙语、阿拉伯语和北欧语言等，也可跟随 macOS 系统语言。",
     workflowEyebrow: "工作流程",
     workflowTitle: "让 Markdown 重复导出这件事变得更从容。",
-    workflowLead:
-      "产品架构刻意让 Finder 扩展保持轻量，把渲染、设置、历史与诊断能力交给主应用。",
+    workflowLead: "从 Finder 开始、导入文件或将文件拖入应用。先预览 PDF，再选择渲染配置，按需导出单个文档或批量转换。",
     workflowStep1Index: "步骤 1",
-    workflowStep1Title: "在已授权的 Finder 目录中选择 Markdown",
-    workflowStep1Body:
-      "Finder 扩展只会出现在你主动授权的目录中，并面向 `.md` 与 `.markdown` 文件，因此流程从熟悉的右键菜单开始。",
+    workflowStep1Title: "从 Finder 或应用添加文件",
+    workflowStep1Body: "启用 Finder 扩展并授权文件夹后即可右键转换；也可通过工具栏导入，或将 .md 和 .markdown 文件拖入应用。",
     workflowStep2Index: "步骤 2",
-    workflowStep2Title: "用队列管理更长的转换任务",
-    workflowStep2Body:
-      "请求先进入共享队列，再由主应用批量消费、失败重试并保存历史，这样不会拖慢 Finder。",
+    workflowStep2Title: "导出前先预览 PDF",
+    workflowStep2Body: "为每个排队文件选择内置模板或已保存的配置。打开 PDF 预览，检查排版与页数、放大查看细节，并在导出前调整设置。",
     workflowStep3Index: "步骤 3",
     workflowStep3Title: "在一个地方统一控制 PDF 输出",
     workflowStep3Body:
@@ -237,8 +220,7 @@ const translations = {
     featuresLead:
       "当前正式版本聚焦本地渲染质量、实用默认值，以及足够细的控制能力，让多次导出也能保持一致。",
     feature1Title: "以配置模板驱动渲染",
-    feature1Body:
-      "可复用的模板支持纸张尺寸、边距、主题、页眉页脚、目录、正文与代码字体、字号和行高。",
+    feature1Body: "从内置模板开始，再保存、复制或重命名自己的配置。可调整 A4、A5、Letter、Legal 纸张、边距、主题、字体、表格、目录和页眉页脚。",
     feature2Title: "输出规则更可预测",
     feature2Body:
       "可选择同名导出、追加日期或自定义模式，再决定是替换现有文件、直接失败，还是创建副本。",
@@ -257,6 +239,8 @@ const translations = {
     feature7Title: "圆角表格样式",
     feature7Body:
       "可为导出的表格设置圆角，让表格在保留边框与列对齐的同时拥有更柔和的卡片式外观。",
+    feature8Title: "导出前预览 PDF",
+    feature8Body: "保存前检查排版与页数，并通过缩放查看细节。每个排队文件都可使用独立的内置模板或已保存渲染配置。",
     renderEyebrow: "渲染能力",
     renderTitle: "数学公式、图表和带语义的代码块，都能稳定进入最终 PDF。",
     renderLead:
@@ -292,8 +276,7 @@ const translations = {
       "Mermaid 流程图与其他图表块会稳定渲染，而目录导航与基于标题的 PDF 书签也让长文档更易浏览。",
     supportEyebrow: "支持矩阵",
     supportTitle: "当前正式版本已经支持什么。",
-    supportLead:
-      "此页面内容来自 MarkdownToPDF PRO 仓库中的源码、发布说明、支持矩阵与仓库文档。",
+    supportLead: "从日常笔记到技术报告，将灵活的页面设置与图表、公式、代码和 PDF 导航结合起来。",
     supportGoodTitle: "当前已可用能力",
     supportGood1: "标题、段落、分隔线与引用块",
     supportGood2: "有序列表、无序列表、任务列表、行内代码、围栏代码块与语法高亮",
@@ -301,8 +284,7 @@ const translations = {
     supportGood4: "主题、纸张尺寸、边距、目录导航、PDF 书签、命名规则与导出后动作",
     privacyEyebrow: "隐私政策",
     privacyTitle: "MarkdownToPDF PRO 的设计目标，是在你的 Mac 上完成处理，而不是把文档送到云端。",
-    privacyLead:
-      "以下内容基于 2026 年 4 月 19 日时的当前应用架构、entitlement 文件与仓库文档。",
+    privacyLead: "本政策说明当前应用如何处理文档和保存偏好设置，核对日期为 2026 年 10 月 3 日。",
     privacyCard1Title: "应用会访问什么",
     privacyCard1Body:
       "仅访问你明确选择的 Markdown 文件和目录，以及本地保存的应用设置、模板、历史记录和队列元数据。",
@@ -313,7 +295,7 @@ const translations = {
     privacyCard3Body:
       "应用运行在沙盒中，使用用户授权的文件权限，并通过 App Group 容器在 Finder 扩展与主应用之间传递任务。",
     privacyEffectiveLabel: "生效日期",
-    privacyEffectiveValue: "2026 年 4 月 19 日",
+    privacyEffectiveValue: "2026 年 10 月 3 日",
     policy1Title: "1. 应用处理的信息",
     policy1Body:
       "MarkdownToPDF PRO 会处理你选择的源 Markdown 文档、你指定的输出位置，以及本地存储的渲染模板、命名默认值、转换历史和待处理队列记录。",
@@ -332,14 +314,12 @@ const translations = {
     policy6Title: "6. 政策更新",
     policy6Body:
       "如果未来版本的应用架构发生变化，这份隐私政策也应与发布说明和官网一起更新，以保证文档描述与实际行为保持一致。",
-    footerBody:
-      "本页面基于当前 MarkdownToPDF PRO 代码库、发布说明、支持矩阵与本地化预览图制作。",
+    footerBody: "在 macOS 上本地将 Markdown 转为 PDF，支持 Finder 扩展、PDF 预览和可复用渲染配置。",
     footerContactLabel: "联系邮箱：",
   },
   "zh-Hant": {
     pageTitle: "MarkdownToPDF PRO for macOS",
-    pageDescription:
-      "MarkdownToPDF PRO 是一款面向 macOS 的 Finder 延伸功能 App，可將 Markdown 檔案在本機轉換為精緻 PDF，並提供設定檔、語法高亮、數學公式渲染、歷史記錄、批次佇列與隱私優先的處理方式。1.5 版起，在不購買任何商品的情況下可免費匯出 20 次 PDF，之後可進行 7 天免費試用，最後 US$1 一次性購買即可永久解鎖；無任何訂閱和自動扣款。",
+    pageDescription: "MarkdownToPDF PRO 可在 Mac 上將 Markdown 本機轉換為精緻 PDF，支援 Finder 右鍵轉換、PDF 預覽、可重用渲染設定、批次佇列、圖表、公式和歷史記錄。在 App Store 一次性購買，安裝後即可使用所有功能，價格以所在地區商店顯示為準。",
     navPrimaryAria: "主要導覽",
     langSwitcherLabel: "語言切換",
     skipLink: "跳至主要內容",
@@ -350,27 +330,25 @@ const translations = {
     heroTitle: "不離開 Finder，直接把 Markdown 匯出成精緻 PDF。",
     heroLead:
       "MarkdownToPDF PRO 面向寫作者、工程師與文件團隊，強調本機處理、可重複匯出、批次佇列、設定檔，以及更適合列印與分享的輸出品質。",
-    heroDownload: "免費匯出 20 次 PDF",
+    heroDownload: "在 App Store 查看",
     heroPrimary: "查看預覽圖",
     heroSecondary: "閱讀隱私政策",
     heroBadge1: "在你主動授權的 Finder 資料夾中，可右鍵 `.md` 與 `.markdown` 檔案開始轉換",
     heroBadge2: "支援批次排隊、失敗重試與結果追蹤",
     heroBadge3: "可調整紙張、邊距、主題、字體與命名規則",
-    heroBadge4: "所有處理都盡量保留在本機沙盒內完成",
+    heroBadge4: "在 Mac 上以本機方式處理文件",
     metaPlatformLabel: "平台",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "介面語言",
-    metaLanguageValue: "內建 8 種語言",
+    metaLanguageValue: "30 個語言及地區選項",
     metaPrivacyLabel: "隱私",
     metaPrivacyValue: "無需帳號，不上傳雲端",
-    metaPricingLabel: "1.5 版起",
-    metaPricingValue: "20 次免費匯出，7 天試用，US$1 永久解鎖；無訂閱和自動扣款",
+    metaPricingLabel: "購買方式",
+    metaPricingValue: "App Store 一次性購買，包含所有功能；價格以商店顯示為準。",
     heroNoteTopLabel: "以佇列為核心",
-    heroNoteTopBody:
-      "Finder 只負責送出請求，真正的長時間工作交給主 App 處理，穩定性與可管理性都更好。",
+    heroNoteTopBody: "在同一個儀表板查看排隊檔案與轉換中的工作，完成結果保存在歷史記錄中。",
     heroNoteBottomLabel: "隱私優先的本機工作流",
-    heroNoteBottomBody:
-      "應用採用沙盒檔案權限與本機儲存，而不是雲端渲染或登入流程。",
+    heroNoteBottomBody: "文件、渲染設定和轉換歷史保留在你的 Mac 上，無需註冊帳號。",
     heroImageAlt: "MarkdownToPDF PRO 佇列儀表板介面",
     signal1Title: "從 Finder 直接開始",
     signal1Body:
@@ -382,20 +360,16 @@ const translations = {
     signal3Body:
       "成功記錄、失敗工作、重試流程與輸出路徑都留在主介面，而不是藏在選單後面。",
     signal4Title: "App 本身支援多語言",
-    signal4Body:
-      "桌面應用已內建英文、簡體中文、繁體中文、日文、韓文、德文、法文與義大利文。",
+    signal4Body: "可在設定中選擇 30 個語言及地區選項，涵蓋中文、西班牙文、葡萄牙文、阿拉伯文和北歐語言等，也可跟隨 macOS 系統語言。",
     workflowEyebrow: "工作流程",
     workflowTitle: "讓 Markdown 的重複匯出變得更從容。",
-    workflowLead:
-      "產品架構刻意讓 Finder 延伸功能保持輕量，把渲染、設定、歷史與診斷能力交給主應用。",
+    workflowLead: "從 Finder 開始、匯入檔案或將檔案拖入 App。先預覽 PDF，再選擇渲染設定，按需匯出單一文件或批次轉換。",
     workflowStep1Index: "步驟 1",
-    workflowStep1Title: "在已授權的 Finder 資料夾中選擇 Markdown",
-    workflowStep1Body:
-      "Finder 延伸功能只會出現在你主動授權的資料夾中，並面向 `.md` 與 `.markdown` 檔案，因此流程可以從熟悉的右鍵選單開始。",
+    workflowStep1Title: "從 Finder 或 App 加入檔案",
+    workflowStep1Body: "啟用 Finder 延伸功能並授權資料夾後即可右鍵轉換；也可透過工具列匯入，或將 .md 和 .markdown 檔案拖入 App。",
     workflowStep2Index: "步驟 2",
-    workflowStep2Title: "用佇列管理較長的轉換工作",
-    workflowStep2Body:
-      "請求會先進入共用佇列，再由主應用批次處理、失敗重試並保留歷史，避免拖慢 Finder。",
+    workflowStep2Title: "匯出前先預覽 PDF",
+    workflowStep2Body: "為每個排隊檔案選擇內建範本或已儲存的設定。開啟 PDF 預覽，檢查版面與頁數、放大查看細節，並在匯出前調整設定。",
     workflowStep3Index: "步驟 3",
     workflowStep3Title: "在同一個地方統一控制 PDF 輸出",
     workflowStep3Body:
@@ -405,8 +379,7 @@ const translations = {
     featuresLead:
       "目前正式版本聚焦在本機渲染品質、實用預設值，以及足夠細緻的控制能力，讓多次匯出也能保持一致。",
     feature1Title: "以設定檔驅動渲染",
-    feature1Body:
-      "可重複使用的設定檔支援紙張尺寸、邊距、主題、頁首頁尾、目錄、正文與程式碼字體、字級和行高。",
+    feature1Body: "從內建範本開始，再儲存、複製或重新命名自己的設定。可調整 A4、A5、Letter、Legal 紙張、邊界、主題、字型、表格、目錄及頁首頁尾。",
     feature2Title: "輸出規則更可預期",
     feature2Body:
       "可選擇同名匯出、附加日期或自訂樣式，再決定要覆蓋現有檔案、直接失敗，或建立副本。",
@@ -425,6 +398,8 @@ const translations = {
     feature7Title: "圓角表格樣式",
     feature7Body:
       "可為匯出的表格設定圓角，讓表格保留框線與欄位對齊，同時呈現更柔和的卡片式外觀。",
+    feature8Title: "匯出前預覽 PDF",
+    feature8Body: "儲存前檢查版面與頁數，並透過縮放查看細節。每個排隊檔案皆可使用獨立的內建範本或已儲存渲染設定。",
     renderEyebrow: "渲染能力",
     renderTitle: "數學公式、圖表與帶語意的程式碼區塊，都能穩定進入最終 PDF。",
     renderLead:
@@ -460,8 +435,7 @@ const translations = {
       "Mermaid 流程圖與其他圖表區塊都會穩定渲染，而目錄導覽與基於標題的 PDF 書籤也讓長文件更容易瀏覽。",
     supportEyebrow: "支援矩陣",
     supportTitle: "目前正式版本已支援的內容。",
-    supportLead:
-      "此頁面內容來自 MarkdownToPDF PRO 倉庫中的原始碼、釋出說明、支援矩陣與相關文件。",
+    supportLead: "從日常筆記到技術報告，將靈活的頁面設定與圖表、公式、程式碼及 PDF 導覽結合。",
     supportGoodTitle: "目前可用能力",
     supportGood1: "標題、段落、分隔線與引用區塊",
     supportGood2: "有序清單、無序清單、任務清單、行內程式碼、圍欄程式碼區塊與語法高亮",
@@ -469,8 +443,7 @@ const translations = {
     supportGood4: "主題、紙張尺寸、邊距、目錄導覽、PDF 書籤、命名規則與匯出後動作",
     privacyEyebrow: "隱私政策",
     privacyTitle: "MarkdownToPDF PRO 的設計目標，是在你的 Mac 上完成處理，而不是把文件送到雲端。",
-    privacyLead:
-      "以下內容基於 2026 年 4 月 19 日時的目前應用架構、entitlement 檔案與倉庫文件。",
+    privacyLead: "本政策說明目前 App 如何處理文件與儲存偏好設定，核對日期為 2026 年 10 月 3 日。",
     privacyCard1Title: "應用會存取什麼",
     privacyCard1Body:
       "僅存取你明確選擇的 Markdown 檔案與資料夾，以及本機儲存的應用設定、設定檔、歷史記錄與佇列中繼資料。",
@@ -481,7 +454,7 @@ const translations = {
     privacyCard3Body:
       "應用運行在沙盒中，使用使用者授權的檔案權限，並透過 App Group 容器在 Finder 延伸功能與主應用之間傳遞工作。",
     privacyEffectiveLabel: "生效日期",
-    privacyEffectiveValue: "2026 年 4 月 19 日",
+    privacyEffectiveValue: "2026 年 10 月 3 日",
     policy1Title: "1. 應用處理的資訊",
     policy1Body:
       "MarkdownToPDF PRO 會處理你選擇的來源 Markdown 文件、你指定的輸出位置，以及本機儲存的渲染設定檔、命名預設值、轉換歷史與待處理佇列記錄。",
@@ -500,14 +473,12 @@ const translations = {
     policy6Title: "6. 政策更新",
     policy6Body:
       "如果未來版本的應用架構發生變化，這份隱私政策也應與釋出說明和網站同步更新，以確保文件描述與實際行為一致。",
-    footerBody:
-      "本頁面根據目前的 MarkdownToPDF PRO 程式碼庫、釋出說明、支援矩陣與本地化預覽圖製作。",
+    footerBody: "在 macOS 上將 Markdown 本機轉換為 PDF，支援 Finder 延伸功能、PDF 預覽及可重用渲染設定。",
     footerContactLabel: "聯絡信箱：",
   },
   ja: {
     pageTitle: "MarkdownToPDF PRO for macOS",
-    pageDescription:
-      "MarkdownToPDF PRO は、Finder から Markdown ファイルを整った PDF に変換できる macOS アプリです。プロファイル、構文ハイライト、数式レンダリング、履歴、バッチキュー、プライバシー重視のローカル処理に対応しています。バージョン 1.5 以降は、購入なしで PDF を 20 回無料で書き出せます。その後 7 日間無料トライアルを利用でき、最後は US$1 の一回払いで永久にアンロックできます。サブスクリプションや自動課金はありません。",
+    pageDescription: "MarkdownToPDF PRO は Mac 上で Markdown を整った PDF に変換します。Finder 連携、PDF プレビュー、再利用可能な設定、バッチキュー、図、数式、履歴に対応。App Store で一度購入すると、インストール後にすべての機能を利用できます。価格はお住まいの地域のストアでご確認ください。",
     navPrimaryAria: "メインナビゲーション",
     langSwitcherLabel: "言語切り替え",
     skipLink: "本文へ移動",
@@ -518,27 +489,25 @@ const translations = {
     heroTitle: "Finder を離れずに、Markdown を洗練された PDF に変換。",
     heroLead:
       "MarkdownToPDF PRO は、ローカルで繰り返し使える書き出し、バッチキュー、プロファイル管理、印刷向けのきれいな出力を求めるライター、エンジニア、ドキュメントチーム向けに設計されています。",
-    heroDownload: "PDF を20回無料で書き出す",
+    heroDownload: "App Store で見る",
     heroPrimary: "プレビューを見る",
     heroSecondary: "プライバシーポリシーを読む",
     heroBadge1: "許可した Finder フォルダ内で `.md` と `.markdown` を右クリックして変換開始",
     heroBadge2: "バッチキュー、失敗時の再試行、結果追跡に対応",
     heroBadge3: "用紙サイズ、余白、テーマ、フォント、命名ルールを調整可能",
-    heroBadge4: "処理はアプリのサンドボックス内でローカル完結",
+    heroBadge4: "Mac 上で文書をローカル処理",
     metaPlatformLabel: "対応環境",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "UI 言語",
-    metaLanguageValue: "8 言語を内蔵",
+    metaLanguageValue: "30 の言語・地域オプション",
     metaPrivacyLabel: "プライバシー",
     metaPrivacyValue: "アカウント不要、クラウド送信なし",
-    metaPricingLabel: "バージョン 1.5 以降",
-    metaPricingValue: "20回無料書き出し、7日間トライアル、US$1 で永久アンロック。サブスクなし。",
+    metaPricingLabel: "購入方法",
+    metaPricingValue: "App Store で一度購入。全機能を利用可能。価格はストアでご確認ください。",
     heroNoteTopLabel: "キュー中心のワークフロー",
-    heroNoteTopBody:
-      "Finder からの要求はメインアプリに渡されるため、時間のかかる変換でも安定して管理しやすくなります。",
+    heroNoteTopBody: "待機中のファイルと変換中の処理を一つのダッシュボードで確認でき、結果は履歴に保存されます。",
     heroNoteBottomLabel: "プライバシー重視のローカル処理",
-    heroNoteBottomBody:
-      "アプリはクラウドレンダリングやサインインではなく、サンドボックスのファイル権限とローカル保存を使います。",
+    heroNoteBottomBody: "文書、設定、変換履歴は Mac 上に保存されます。アカウント登録は不要です。",
     heroImageAlt: "MarkdownToPDF PRO のキューダッシュボード",
     signal1Title: "Finder からすぐ開始",
     signal1Body:
@@ -550,20 +519,16 @@ const translations = {
     signal3Body:
       "成功した書き出し、失敗ジョブ、再試行の流れ、出力先パスをメニューの奥に隠さず画面上に残します。",
     signal4Title: "アプリ自体が多言語対応",
-    signal4Body:
-      "デスクトップアプリは英語、簡体字中国語、繁体字中国語、日本語、韓国語、ドイツ語、フランス語、イタリア語に対応しています。",
+    signal4Body: "設定で中国語、スペイン語、ポルトガル語、アラビア語、北欧の言語など 30 の言語・地域オプションを選択できます。macOS の言語にも合わせられます。",
     workflowEyebrow: "ワークフロー",
     workflowTitle: "Markdown の繰り返し書き出しを、もっと落ち着いて進められる形に。",
-    workflowLead:
-      "製品アーキテクチャは Finder 拡張を軽く保ち、レンダリング、設定、履歴、診断をメインアプリに任せる構成です。",
+    workflowLead: "Finder、ファイルの読み込み、ドラッグ＆ドロップから開始。PDF をプレビューし、レンダリング設定を選んで、一つずつまたはまとめて書き出せます。",
     workflowStep1Index: "ステップ 1",
-    workflowStep1Title: "許可済み Finder フォルダで Markdown を選択",
-    workflowStep1Body:
-      "Finder 拡張は明示的に許可したフォルダ内でのみ表示され、`.md` と `.markdown` を対象にするため、慣れた右クリック操作から始められます。",
+    workflowStep1Title: "Finder またはアプリからファイルを追加",
+    workflowStep1Body: "Finder 拡張を有効にしてフォルダへのアクセスを許可すれば、右クリックで変換できます。ツールバーからの読み込みや .md・.markdown ファイルのドラッグにも対応します。",
     workflowStep2Index: "ステップ 2",
-    workflowStep2Title: "長い変換はキューで整理",
-    workflowStep2Body:
-      "リクエストは共有キューを通るため、Finder を重くせずにメインアプリ側で一括処理、再試行、履歴保存ができます。",
+    workflowStep2Title: "書き出す前に PDF をプレビュー",
+    workflowStep2Body: "キュー内の各ファイルに内蔵テンプレートや保存済み設定を選択。PDF プレビューでレイアウトとページ数を確認し、拡大して細部を見ながら書き出し前に設定を調整できます。",
     workflowStep3Index: "ステップ 3",
     workflowStep3Title: "PDF 出力を一か所で調整",
     workflowStep3Body:
@@ -573,8 +538,7 @@ const translations = {
     featuresLead:
       "現在の正式版は、ローカルレンダリング品質、実用的な初期設定、繰り返しの書き出しでも整った結果を保てる制御性に重点を置いています。",
     feature1Title: "プロファイル駆動のレンダリング",
-    feature1Body:
-      "再利用可能なプロファイルで、用紙サイズ、余白、テーマ、ヘッダーとフッター、目次、本文フォント、コードフォント、文字サイズ、行間を管理できます。",
+    feature1Body: "内蔵テンプレートを使い、独自の設定を保存、コピー、名前変更できます。A4、A5、Letter、Legal、余白、テーマ、フォント、表、目次、ヘッダー・フッターを調整できます。",
     feature2Title: "予測しやすい出力ルール",
     feature2Body:
       "同名出力、日付付加、カスタムパターンを選び、その上で置き換え、失敗終了、または複製作成を決められます。",
@@ -593,6 +557,8 @@ const translations = {
     feature7Title: "角丸テーブルスタイル",
     feature7Body:
       "書き出す表に角丸を適用し、罫線と列揃えを保ちながら、よりやわらかなカード風の見た目にできます。",
+    feature8Title: "書き出し前の PDF プレビュー",
+    feature8Body: "保存前にレイアウトとページ数を確認し、ズームで細部をチェック。キュー内の各ファイルに専用の内蔵テンプレートや保存済み設定を指定できます。",
     renderEyebrow: "レンダリング",
     renderTitle: "数式、図、意味を保ったコードブロックが、そのまま PDF に残る。",
     renderLead:
@@ -628,8 +594,7 @@ const translations = {
       "Mermaid のフローチャートやその他の図ブロックはきれいに描画され、目次ナビゲーションや見出しベースの PDF アウトラインとブックマークによって長文も追いやすくなります。",
     supportEyebrow: "サポート範囲",
     supportTitle: "現在の正式版で利用できる機能。",
-    supportLead:
-      "このページは MarkdownToPDF PRO リポジトリの現行ソースコード、リリースノート、サポートマトリクス、関連ドキュメントを元にしています。",
+    supportLead: "日々のメモから技術レポートまで、柔軟なページ設定と図、数式、コード、PDF ナビゲーションを組み合わせられます。",
     supportGoodTitle: "現在利用可能",
     supportGood1: "見出し、段落、水平線、引用ブロック",
     supportGood2: "順序付きリスト、箇条書き、タスクリスト、インラインコード、フェンスコード、構文ハイライト",
@@ -637,8 +602,7 @@ const translations = {
     supportGood4: "テーマ、用紙サイズ、余白、目次ナビゲーション、PDF ブックマーク、命名ルール、変換後アクション",
     privacyEyebrow: "プライバシーポリシー",
     privacyTitle: "MarkdownToPDF PRO は、クラウドではなくあなたの Mac 上で動作するよう設計されています。",
-    privacyLead:
-      "以下の内容は、2026 年 4 月 19 日時点のアプリ構成、entitlement ファイル、リポジトリ文書を反映しています。",
+    privacyLead: "このポリシーは、現在のアプリによる文書の処理と設定の保存について説明しています。確認日：2026年10月3日。",
     privacyCard1Title: "アプリがアクセスするもの",
     privacyCard1Body:
       "明示的に選択した Markdown ファイルとフォルダ、およびローカルのアプリ設定、プロファイル、履歴、キューメタデータのみです。",
@@ -649,7 +613,7 @@ const translations = {
     privacyCard3Body:
       "アプリはサンドボックス内で動作し、ユーザー選択のファイル権限と App Group コンテナを使って Finder 拡張と本体アプリ間でジョブを受け渡します。",
     privacyEffectiveLabel: "施行日",
-    privacyEffectiveValue: "2026年4月19日",
+    privacyEffectiveValue: "2026年10月3日",
     policy1Title: "1. アプリが処理する情報",
     policy1Body:
       "MarkdownToPDF PRO は、選択した元の Markdown 文書、指定した出力先、そしてローカルに保存されたレンダープロファイル、命名既定値、変換履歴、保留中キュー記録を処理します。",
@@ -668,14 +632,12 @@ const translations = {
     policy6Title: "6. ポリシー更新",
     policy6Body:
       "将来のリリースでアプリ構成が変わる場合は、このポリシーもリリースノートや Web サイトと合わせて更新し、記載内容と実際の動作が一致するようにすべきです。",
-    footerBody:
-      "このページは、MarkdownToPDF PRO の現行コードベース、リリースノート、サポートマトリクス、ローカライズ済みプレビュー画像をもとに構成されています。",
+    footerBody: "Finder 連携、PDF プレビュー、再利用可能なレンダリング設定を備えた macOS 向けローカル Markdown PDF 変換。",
     footerContactLabel: "連絡先:",
   },
   ko: {
     pageTitle: "MarkdownToPDF PRO for macOS",
-    pageDescription:
-      "MarkdownToPDF PRO는 Finder에서 Markdown 파일을 정돈된 PDF로 바꿔 주는 macOS 앱입니다. 프로필, 문법 강조, 수식 렌더링, 기록, 배치 큐, 개인정보 중심의 로컬 처리에 대응합니다. 버전 1.5부터는 아무 상품을 구매하지 않아도 PDF를 20회 무료로 내보낼 수 있습니다. 이후 7일 무료 체험을 사용할 수 있고, 마지막으로 US$1 1회 결제로 영구 잠금 해제할 수 있습니다. 구독이나 자동 결제는 없습니다.",
+    pageDescription: "MarkdownToPDF PRO는 Mac에서 Markdown을 깔끔한 PDF로 로컬 변환합니다. Finder 연동, PDF 미리보기, 재사용 설정, 배치 큐, 다이어그램, 수식, 기록을 지원합니다. App Store에서 한 번 구매하면 설치 후 모든 기능을 사용할 수 있습니다. 가격은 해당 지역 스토어에서 확인하세요.",
     navPrimaryAria: "기본 탐색",
     langSwitcherLabel: "언어 전환",
     skipLink: "본문으로 건너뛰기",
@@ -686,27 +648,25 @@ const translations = {
     heroTitle: "Finder를 벗어나지 않고 Markdown을 완성도 높은 PDF로 변환.",
     heroLead:
       "MarkdownToPDF PRO는 로컬에서 반복 가능한 내보내기, 배치 큐, 프로필, 깔끔한 출력 품질이 필요한 작성자, 엔지니어, 문서 팀을 위해 만들어졌습니다.",
-    heroDownload: "PDF 20회 무료 내보내기",
+    heroDownload: "App Store에서 보기",
     heroPrimary: "미리보기 보기",
     heroSecondary: "개인정보 처리방침 읽기",
     heroBadge1: "권한을 허용한 Finder 폴더에서 `.md`와 `.markdown` 파일을 우클릭해 변환 시작",
     heroBadge2: "배치 큐, 실패 재시도, 결과 추적 지원",
     heroBadge3: "용지 크기, 여백, 테마, 글꼴, 이름 규칙 조정 가능",
-    heroBadge4: "모든 처리는 앱 샌드박스 안에서 로컬로 완료",
+    heroBadge4: "Mac에서 문서를 로컬로 처리",
     metaPlatformLabel: "플랫폼",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "UI 언어",
-    metaLanguageValue: "8개 언어 내장",
+    metaLanguageValue: "30개 언어 및 지역 옵션",
     metaPrivacyLabel: "개인정보",
     metaPrivacyValue: "계정 없음, 클라우드 업로드 없음",
-    metaPricingLabel: "버전 1.5부터",
-    metaPricingValue: "20회 무료 내보내기, 7일 체험, US$1 영구 해제. 구독 없음.",
+    metaPricingLabel: "구매 방식",
+    metaPricingValue: "App Store에서 한 번 구매하고 모든 기능을 사용하세요. 가격은 스토어에서 확인하세요.",
     heroNoteTopLabel: "큐 중심 워크플로",
-    heroNoteTopBody:
-      "Finder 요청은 메인 앱으로 전달되므로 시간이 걸리는 변환도 더 안정적으로 관리할 수 있습니다.",
+    heroNoteTopBody: "대기 중인 파일과 진행 중인 변환을 한 대시보드에서 확인하고, 결과는 기록에 저장합니다.",
     heroNoteBottomLabel: "개인정보 중심의 로컬 워크플로",
-    heroNoteBottomBody:
-      "앱은 클라우드 렌더링이나 로그인 흐름 대신 샌드박스 파일 권한과 로컬 저장소를 사용합니다.",
+    heroNoteBottomBody: "문서, 렌더링 설정, 변환 기록은 Mac에 저장됩니다. 계정이 필요하지 않습니다.",
     heroImageAlt: "MarkdownToPDF PRO 큐 대시보드",
     signal1Title: "Finder에서 바로 시작",
     signal1Body:
@@ -718,20 +678,16 @@ const translations = {
     signal3Body:
       "성공한 내보내기, 실패한 작업, 재시도 흐름, 출력 경로가 메뉴 속에 숨지 않고 화면에 남습니다.",
     signal4Title: "앱 자체가 다국어 지원",
-    signal4Body:
-      "데스크톱 앱은 영어, 중국어 간체, 중국어 번체, 일본어, 한국어, 독일어, 프랑스어, 이탈리아어를 지원합니다.",
+    signal4Body: "설정에서 중국어, 스페인어, 포르투갈어, 아랍어, 북유럽 언어 등을 포함한 30개 언어 및 지역 옵션을 선택하거나 macOS 언어를 따를 수 있습니다.",
     workflowEyebrow: "워크플로",
     workflowTitle: "Markdown 반복 내보내기를 더 차분하게 처리하는 방식.",
-    workflowLead:
-      "제품 구조는 Finder 확장을 가볍게 유지하고 렌더링, 설정, 기록, 진단은 메인 앱이 맡도록 설계되어 있습니다.",
+    workflowLead: "Finder에서 시작하거나 파일을 가져오거나 앱으로 드래그하세요. PDF를 미리 보고 렌더링 설정을 선택한 뒤 개별 문서나 여러 파일을 내보낼 수 있습니다.",
     workflowStep1Index: "1단계",
-    workflowStep1Title: "권한이 있는 Finder 폴더에서 Markdown 선택",
-    workflowStep1Body:
-      "Finder 확장은 사용자가 명시적으로 허용한 폴더에서만 나타나며 `.md`와 `.markdown` 파일을 대상으로 하므로 익숙한 우클릭 메뉴에서 바로 시작할 수 있습니다.",
+    workflowStep1Title: "Finder 또는 앱에서 파일 추가",
+    workflowStep1Body: "Finder 확장을 활성화하고 폴더 접근을 허용하면 오른쪽 클릭으로 변환할 수 있습니다. 도구 막대에서 가져오거나 .md 및 .markdown 파일을 앱으로 드래그할 수도 있습니다.",
     workflowStep2Index: "2단계",
-    workflowStep2Title: "긴 변환은 큐로 정리",
-    workflowStep2Body:
-      "요청은 공용 큐를 거치므로 Finder를 느리게 하지 않으면서 메인 앱이 일괄 처리, 재시도, 기록 보존을 담당할 수 있습니다.",
+    workflowStep2Title: "내보내기 전에 PDF 미리보기",
+    workflowStep2Body: "큐의 각 파일에 내장 템플릿이나 저장된 설정을 선택하세요. PDF 미리보기에서 레이아웃과 페이지 수를 확인하고, 확대해 세부 내용을 살펴보며 내보내기 전에 설정을 조정할 수 있습니다.",
     workflowStep3Index: "3단계",
     workflowStep3Title: "한 곳에서 PDF 출력 제어",
     workflowStep3Body:
@@ -741,8 +697,7 @@ const translations = {
     featuresLead:
       "현재 정식 버전은 로컬 렌더링 품질, 실용적인 기본값, 반복 내보내기에서도 일관된 결과를 유지할 수 있는 제어 기능에 집중합니다.",
     feature1Title: "프로필 기반 렌더링",
-    feature1Body:
-      "재사용 가능한 프로필로 용지 크기, 여백, 테마, 머리글과 바닥글, 목차, 본문 글꼴, 코드 글꼴, 글자 크기, 줄 높이를 관리할 수 있습니다.",
+    feature1Body: "내장 템플릿으로 시작하고 나만의 설정을 저장, 복사하거나 이름을 변경하세요. A4, A5, Letter, Legal 용지, 여백, 테마, 글꼴, 표, 목차, 머리글과 바닥글을 조정할 수 있습니다.",
     feature2Title: "예측 가능한 출력 규칙",
     feature2Body:
       "같은 이름으로 저장, 날짜 추가, 사용자 지정 패턴 중 하나를 고르고 기존 파일 교체, 빠른 실패, 복사본 생성 중 동작을 정할 수 있습니다.",
@@ -761,6 +716,8 @@ const translations = {
     feature7Title: "둥근 모서리 표 스타일",
     feature7Body:
       "내보낸 표에 모서리 반경을 적용해 테두리와 열 정렬은 유지하면서 더 부드러운 카드형 외형을 만들 수 있습니다.",
+    feature8Title: "내보내기 전 PDF 미리보기",
+    feature8Body: "저장 전에 레이아웃과 페이지 수를 확인하고 확대 기능으로 세부 내용을 살펴보세요. 큐의 각 파일에 개별 템플릿이나 저장된 렌더링 설정을 지정할 수 있습니다.",
     renderEyebrow: "렌더링",
     renderTitle: "수식, 다이어그램, 의미를 살린 코드 블록이 그대로 PDF까지 이어집니다.",
     renderLead:
@@ -796,8 +753,7 @@ const translations = {
       "Mermaid 플로우차트와 다른 다이어그램 블록은 깔끔하게 렌더링되며, 목차 탐색과 제목 기반 PDF outline 및 북마크로 긴 문서를 더 쉽게 훑어볼 수 있습니다.",
     supportEyebrow: "지원 범위",
     supportTitle: "현재 정식 버전에서 지원하는 내용.",
-    supportLead:
-      "이 페이지는 MarkdownToPDF PRO 저장소의 현재 소스 코드, 릴리스 노트, 지원 매트릭스, 관련 문서를 기반으로 합니다.",
+    supportLead: "일상 메모부터 기술 보고서까지 유연한 페이지 설정에 다이어그램, 수식, 코드, PDF 탐색을 결합하세요.",
     supportGoodTitle: "현재 사용 가능",
     supportGood1: "제목, 문단, 가로줄, 인용 블록",
     supportGood2: "순서 목록, 글머리표 목록, 작업 목록, 인라인 코드, fenced code block, 문법 강조",
@@ -805,8 +761,7 @@ const translations = {
     supportGood4: "테마, 용지 크기, 여백, 목차 탐색, PDF 북마크, 이름 규칙, 변환 후 동작",
     privacyEyebrow: "개인정보 처리방침",
     privacyTitle: "MarkdownToPDF PRO는 클라우드가 아니라 사용자의 Mac에서 동작하도록 설계되었습니다.",
-    privacyLead:
-      "아래 정책은 2026년 4월 19일 기준 앱 아키텍처, entitlement 파일, 저장소 문서를 반영합니다.",
+    privacyLead: "이 정책은 현재 앱의 문서 처리 및 환경설정 저장 방식을 설명합니다. 확인 날짜: 2026년 10월 3일.",
     privacyCard1Title: "앱이 접근하는 정보",
     privacyCard1Body:
       "사용자가 명시적으로 선택한 Markdown 파일과 폴더, 그리고 로컬 앱 설정, 프로필, 기록, 큐 메타데이터만 접근합니다.",
@@ -817,7 +772,7 @@ const translations = {
     privacyCard3Body:
       "앱은 샌드박스에서 동작하며 사용자 선택 파일 권한과 App Group 컨테이너를 사용해 Finder 확장과 메인 앱 사이에 작업을 전달합니다.",
     privacyEffectiveLabel: "시행일",
-    privacyEffectiveValue: "2026년 4월 19일",
+    privacyEffectiveValue: "2026년 10월 3일",
     policy1Title: "1. 앱이 처리하는 정보",
     policy1Body:
       "MarkdownToPDF PRO는 사용자가 선택한 원본 Markdown 문서, 지정한 출력 위치, 그리고 로컬에 저장된 렌더링 프로필, 이름 기본값, 변환 기록, 대기 중인 큐 기록을 처리합니다.",
@@ -836,14 +791,12 @@ const translations = {
     policy6Title: "6. 정책 업데이트",
     policy6Body:
       "향후 릴리스에서 앱 구조가 바뀌면 이 정책도 릴리스 노트와 웹사이트와 함께 업데이트되어 문서화된 동작이 실제와 일치하도록 해야 합니다.",
-    footerBody:
-      "이 페이지는 현재 MarkdownToPDF PRO 코드베이스, 릴리스 노트, 지원 매트릭스, 현지화된 미리보기 이미지를 바탕으로 제작되었습니다.",
+    footerBody: "Finder 연동, PDF 미리보기, 재사용 가능한 렌더링 설정을 제공하는 macOS용 로컬 Markdown PDF 변환 앱.",
     footerContactLabel: "문의:",
   },
   de: {
     pageTitle: "MarkdownToPDF PRO für macOS",
-    pageDescription:
-      "MarkdownToPDF PRO ist eine macOS-App mit Finder-Integration, die Markdown-Dateien lokal in hochwertige PDFs umwandelt, inklusive Profile, Syntax-Highlighting, Formelsatz, Verlauf, Batch-Warteschlange und datenschutzfreundlicher Verarbeitung. Ab Version 1.5 kannst du ohne Kauf 20 PDFs kostenlos exportieren, danach eine 7-tägige kostenlose Testphase nutzen und die App anschließend mit einem einmaligen Kauf von US$1 dauerhaft freischalten. Kein Abo und keine automatische Abrechnung.",
+    pageDescription: "MarkdownToPDF PRO wandelt Markdown lokal auf deinem Mac in hochwertige PDFs um, mit Finder-Integration, PDF-Vorschau, wiederverwendbaren Profilen, Stapelverarbeitung, Diagrammen, Formeln und Verlauf. Einmal im App Store kaufen und nach der Installation alle Funktionen nutzen. Den Preis findest du im Store deiner Region.",
     navPrimaryAria: "Hauptnavigation",
     langSwitcherLabel: "Sprachauswahl",
     skipLink: "Zum Inhalt springen",
@@ -854,28 +807,25 @@ const translations = {
     heroTitle: "Markdown direkt aus dem Finder in saubere PDFs umwandeln.",
     heroLead:
       "MarkdownToPDF PRO ist für Autor:innen, Entwickler:innen und Dokumentationsteams gedacht, die lokale, wiederholbare Exporte mit Batch-Warteschlangen, Profilen und druckfertiger Ausgabe möchten.",
-    heroDownload: "20 PDFs kostenlos exportieren",
+    heroDownload: "Im App Store ansehen",
     heroPrimary: "Vorschauen ansehen",
     heroSecondary: "Datenschutzrichtlinie lesen",
     heroBadge1: "`.md`- und `.markdown`-Dateien in freigegebenen Finder-Ordnern per Rechtsklick umwandeln",
     heroBadge2: "Batch-Warteschlangen und Wiederholungen bei Fehlern",
     heroBadge3: "Papierformat, Ränder, Theme, Schriften und Benennungsregeln anpassen",
-    heroBadge4: "Alles bleibt lokal in der App-Sandbox",
+    heroBadge4: "Dokumente lokal auf deinem Mac verarbeiten",
     metaPlatformLabel: "Plattform",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "UI-Sprachen",
-    metaLanguageValue: "8 integrierte Optionen",
+    metaLanguageValue: "30 Sprach- und Regionsoptionen",
     metaPrivacyLabel: "Datenschutz",
     metaPrivacyValue: "Kein Konto, kein Cloud-Upload",
-    metaPricingLabel: "Ab Version 1.5",
-    metaPricingValue:
-      "20 kostenlose Exporte, 7 Tage Testphase, US$1 lebenslang. Kein Abo.",
+    metaPricingLabel: "Kauf",
+    metaPricingValue: "Einmalkauf im App Store. Alle Funktionen enthalten; Preis im Store ansehen.",
     heroNoteTopLabel: "Queue-zentrierter Ablauf",
-    heroNoteTopBody:
-      "Finder-Anfragen werden an die Haupt-App übergeben, damit längere Konvertierungen stabiler bleiben und leichter zu verwalten sind.",
+    heroNoteTopBody: "Dateien in der Warteschlange und laufende Konvertierungen bleiben im Dashboard sichtbar. Ergebnisse werden im Verlauf gespeichert.",
     heroNoteBottomLabel: "Datenschutzfreundlicher lokaler Ablauf",
-    heroNoteBottomBody:
-      "Die App nutzt Sandbox-Dateizugriff und lokale Speicherung statt Cloud-Rendering oder Anmelde-Flows.",
+    heroNoteBottomBody: "Dokumente, Profile und Konvertierungsverlauf bleiben auf deinem Mac. Kein Konto erforderlich.",
     heroImageAlt: "MarkdownToPDF PRO Warteschlangen-Dashboard",
     signal1Title: "Direkt aus dem Finder",
     signal1Body:
@@ -887,20 +837,16 @@ const translations = {
     signal3Body:
       "Erfolgreiche Exporte, fehlgeschlagene Jobs, Wiederholungen und Ausgabepfade bleiben sichtbar, statt in Menüs zu verschwinden.",
     signal4Title: "Lokalisierte App-Oberfläche",
-    signal4Body:
-      "Die Desktop-App bietet bereits Englisch, vereinfachtes Chinesisch, traditionelles Chinesisch, Japanisch, Koreanisch, Deutsch, Französisch und Italienisch.",
+    signal4Body: "Wähle in den Einstellungen aus 30 Sprach- und Regionsoptionen, darunter Chinesisch, Spanisch, Portugiesisch, Arabisch und nordische Sprachen, oder folge der macOS-Sprache.",
     workflowEyebrow: "Ablauf",
     workflowTitle: "Markdown immer wieder exportieren, aber deutlich entspannter.",
-    workflowLead:
-      "Die Produktarchitektur hält die Finder-Erweiterung bewusst leicht und überlässt Rendering, Einstellungen, Verlauf und Diagnose der Haupt-App.",
+    workflowLead: "Starte im Finder, importiere Dateien oder ziehe sie in die App. Prüfe die PDF-Vorschau, wähle eine Render-Konfiguration und exportiere einzelne Dokumente oder einen Stapel.",
     workflowStep1Index: "Schritt 1",
-    workflowStep1Title: "Markdown in einem freigegebenen Finder-Ordner auswählen",
-    workflowStep1Body:
-      "Die Finder-Erweiterung erscheint nur in Ordnern, die du ausdrücklich freigegeben hast, und arbeitet mit `.md`- und `.markdown`-Dateien. So startet der Ablauf direkt im vertrauten Rechtsklick-Menü.",
+    workflowStep1Title: "Dateien aus Finder oder App hinzufügen",
+    workflowStep1Body: "Aktiviere die Finder-Erweiterung und erlaube den Zugriff auf deine Ordner für die Konvertierung per Rechtsklick. Alternativ importierst du .md- und .markdown-Dateien über die Symbolleiste oder per Drag-and-drop.",
     workflowStep2Index: "Schritt 2",
-    workflowStep2Title: "Längere Jobs sauber über die Warteschlange organisieren",
-    workflowStep2Body:
-      "Anfragen laufen durch eine gemeinsame Queue, damit die Haupt-App bündeln, wiederholen und den Verlauf sichern kann, ohne den Finder auszubremsen.",
+    workflowStep2Title: "PDF vor dem Export prüfen",
+    workflowStep2Body: "Wähle für jede Datei eine integrierte Vorlage oder ein gespeichertes Profil. Prüfe Layout und Seitenzahl in der PDF-Vorschau, vergrößere Details und passe die Einstellungen vor dem Export an.",
     workflowStep3Index: "Schritt 3",
     workflowStep3Title: "PDF-Ausgabe zentral steuern",
     workflowStep3Body:
@@ -910,8 +856,7 @@ const translations = {
     featuresLead:
       "Die aktuelle Version konzentriert sich auf lokale Renderqualität, sinnvolle Standards und genügend Kontrolle, damit exportierte PDFs über viele Läufe hinweg konsistent bleiben.",
     feature1Title: "Profilgesteuertes Rendering",
-    feature1Body:
-      "Wiederverwendbare Profile decken Papierformat, Ränder, Theme, Kopf- und Fußzeile, Inhaltsverzeichnis, Fließtext- und Code-Schrift, Schriftgröße und Zeilenhöhe ab.",
+    feature1Body: "Nutze integrierte Vorlagen und speichere, kopiere oder benenne eigene Profile um. Passe A4, A5, Letter, Legal, Ränder, Themes, Schriften, Tabellen, Inhaltsverzeichnis sowie Kopf- und Fußzeilen an.",
     feature2Title: "Vorhersehbare Ausgaberegeln",
     feature2Body:
       "Wähle gleichnamige Exporte, Datumsanhänge oder eigene Muster und entscheide dann zwischen Ersetzen, schnellem Abbruch oder Kopien.",
@@ -930,6 +875,8 @@ const translations = {
     feature7Title: "Abgerundete Tabellen",
     feature7Body:
       "Tabellen können mit Eckenradius exportiert werden, damit sie weicher wirken und trotzdem Rahmen sowie Spaltenausrichtung behalten.",
+    feature8Title: "PDF-Vorschau vor dem Export",
+    feature8Body: "Prüfe Layout und Seitenzahl vor dem Speichern mit Zoom-Steuerung. Jede Datei in der Warteschlange kann eine eigene Vorlage oder gespeicherte Render-Konfiguration nutzen.",
     renderEyebrow: "Rendering",
     renderTitle: "Formeln, Diagramme und semantische Codeblöcke überstehen den Weg ins PDF.",
     renderLead:
@@ -965,8 +912,7 @@ const translations = {
       "Mermaid-Flowcharts und andere Diagrammblöcke werden sauber gerendert, während Inhaltsverzeichnis-Navigation sowie PDF-Outline- und Lesezeicheneinträge auf Basis von Überschriften lange Exporte leichter durchsuchbar machen.",
     supportEyebrow: "Support-Matrix",
     supportTitle: "Was die App in der aktuellen Version unterstützt.",
-    supportLead:
-      "Diese Seite basiert auf dem aktuellen Quellcode, den Release Notes, der Support-Matrix und der Dokumentation im MarkdownToPDF PRO-Repository.",
+    supportLead: "Von alltäglichen Notizen bis zu technischen Berichten: Kombiniere flexible Seiteneinstellungen mit Diagrammen, Formeln, Code und PDF-Navigation.",
     supportGoodTitle: "Heute verfügbar",
     supportGood1: "Überschriften, Absätze, horizontale Linien und Zitatblöcke",
     supportGood2: "Geordnete und ungeordnete Listen, Task-Listen, Inline-Code, fenced code und Syntax-Highlighting",
@@ -974,8 +920,7 @@ const translations = {
     supportGood4: "Themes, Papiergrößen, Ränder, Inhaltsverzeichnis-Navigation, PDF-Lesezeichen, Benennungsregeln und Aktionen nach dem Export",
     privacyEyebrow: "Datenschutzrichtlinie",
     privacyTitle: "MarkdownToPDF PRO ist dafür gedacht, auf deinem Mac zu arbeiten, nicht in der Cloud.",
-    privacyLead:
-      "Die folgende Richtlinie spiegelt App-Architektur, Entitlement-Dateien und Repository-Dokumentation mit Stand 19. April 2026 wider.",
+    privacyLead: "Diese Richtlinie beschreibt die Dokumentverarbeitung und lokale Speicherung der Einstellungen in der aktuellen App. Geprüft am 3. Oktober 2026.",
     privacyCard1Title: "Worauf die App zugreift",
     privacyCard1Body:
       "Nur auf die Markdown-Dateien und Ordner, die du ausdrücklich auswählst, sowie auf lokale App-Einstellungen, Profile, Verlaufsdaten und Queue-Metadaten.",
@@ -986,7 +931,7 @@ const translations = {
     privacyCard3Body:
       "Die App läuft sandboxed und nutzt benutzergewählte Dateiberechtigungen plus einen App-Group-Container für die Übergabe zwischen Finder-Erweiterung und Haupt-App.",
     privacyEffectiveLabel: "Gültig ab",
-    privacyEffectiveValue: "19. April 2026",
+    privacyEffectiveValue: "3. Oktober 2026",
     policy1Title: "1. Welche Informationen die App verarbeitet",
     policy1Body:
       "MarkdownToPDF PRO verarbeitet die von dir ausgewählten Quelldokumente, die gewählten Ausgabepfade sowie lokal gespeicherte Einstellungen wie Render-Profile, Benennungsstandards, Konvertierungsverlauf und ausstehende Queue-Einträge.",
@@ -1005,14 +950,12 @@ const translations = {
     policy6Title: "6. Aktualisierung der Richtlinie",
     policy6Body:
       "Wenn sich die App-Architektur in einer zukünftigen Version ändert, sollte diese Richtlinie zusammen mit den Release Notes und der Website aktualisiert werden, damit die dokumentierte Beschreibung korrekt bleibt.",
-    footerBody:
-      "Erstellt auf Grundlage der aktuellen MarkdownToPDF PRO-Codebasis, Release Notes, Support-Matrix und lokalisierten Vorschaubilder.",
+    footerBody: "Lokale Markdown-zu-PDF-Konvertierung für macOS mit Finder-Integration, PDF-Vorschau und wiederverwendbaren Render-Konfigurationen.",
     footerContactLabel: "Kontakt:",
   },
   fr: {
     pageTitle: "MarkdownToPDF PRO pour macOS",
-    pageDescription:
-      "MarkdownToPDF PRO est une application macOS intégrée au Finder qui transforme localement des fichiers Markdown en PDF soignés, avec profils, coloration syntaxique, rendu mathématique, historique, file d'attente par lots et traitement respectueux de la vie privée. Depuis la version 1.5, vous pouvez exporter 20 PDF gratuitement sans acheter quoi que ce soit, puis profiter d'un essai gratuit de 7 jours et enfin débloquer l'accès à vie avec un achat unique de US$1. Aucun abonnement ni facturation automatique.",
+    pageDescription: "MarkdownToPDF PRO convertit Markdown en PDF soignés localement sur votre Mac, avec intégration Finder, aperçu PDF, profils réutilisables, file par lots, diagrammes, formules et historique. Achetez une fois sur l’App Store et utilisez toutes les fonctions après installation. Le prix est indiqué dans votre boutique locale.",
     navPrimaryAria: "Navigation principale",
     langSwitcherLabel: "Sélecteur de langue",
     skipLink: "Aller au contenu",
@@ -1023,28 +966,25 @@ const translations = {
     heroTitle: "Transformer Markdown en PDF soignés sans quitter Finder.",
     heroLead:
       "MarkdownToPDF PRO s'adresse aux rédacteurs, ingénieurs et équipes de documentation qui veulent des exports locaux, répétables, avec files d'attente, profils et rendu propre prêt à l'impression.",
-    heroDownload: "Exporter 20 PDF gratuits",
+    heroDownload: "Voir sur l’App Store",
     heroPrimary: "Voir les aperçus",
     heroSecondary: "Lire la politique de confidentialité",
     heroBadge1: "Clic droit sur les fichiers `.md` et `.markdown` dans les dossiers Finder autorisés",
     heroBadge2: "Files d'attente par lots et reprise après échec",
     heroBadge3: "Réglage du format de page, des marges, du thème, des polices et des règles de nommage",
-    heroBadge4: "Tout reste local dans le bac à sable de l'application",
+    heroBadge4: "Traitez vos documents localement sur votre Mac",
     metaPlatformLabel: "Plateforme",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "Langues de l'interface",
-    metaLanguageValue: "8 options intégrées",
+    metaLanguageValue: "30 options de langue et de région",
     metaPrivacyLabel: "Confidentialité",
     metaPrivacyValue: "Aucun compte, aucun envoi vers le cloud",
-    metaPricingLabel: "Depuis la version 1.5",
-    metaPricingValue:
-      "20 exports gratuits, essai 7 jours, accès à vie pour US$1. Sans abonnement.",
+    metaPricingLabel: "Achat",
+    metaPricingValue: "Achat unique sur l’App Store, toutes les fonctions incluses. Prix indiqué dans la boutique.",
     heroNoteTopLabel: "Flux centré sur la file",
-    heroNoteTopBody:
-      "Les demandes du Finder sont confiées à l'application principale, ce qui rend les conversions plus longues plus stables et plus faciles à suivre.",
+    heroNoteTopBody: "Suivez les fichiers en attente et les conversions en cours dans un seul tableau de bord. Les résultats sont conservés dans l’historique.",
     heroNoteBottomLabel: "Traitement local d'abord",
-    heroNoteBottomBody:
-      "L'application utilise des accès fichiers sandboxés et un stockage local plutôt qu'un rendu cloud ou des flux de connexion.",
+    heroNoteBottomBody: "Vos documents, profils et historique restent sur votre Mac. Aucun compte nécessaire.",
     heroImageAlt: "Tableau de bord de file d'attente MarkdownToPDF PRO",
     signal1Title: "Directement depuis Finder",
     signal1Body:
@@ -1056,20 +996,16 @@ const translations = {
     signal3Body:
       "Les exports réussis, les échecs, les reprises et les chemins de sortie restent visibles au lieu de disparaître dans un menu.",
     signal4Title: "Interface déjà localisée",
-    signal4Body:
-      "L'application de bureau propose déjà l'anglais, le chinois simplifié, le chinois traditionnel, le japonais, le coréen, l'allemand, le français et l'italien.",
+    signal4Body: "Choisissez parmi 30 options de langue et de région dans les réglages, dont le chinois, l’espagnol, le portugais, l’arabe et les langues nordiques, ou suivez la langue de macOS.",
     workflowEyebrow: "Flux",
     workflowTitle: "Une manière plus sereine d'exporter Markdown, encore et encore.",
-    workflowLead:
-      "L'architecture garde l'extension Finder légère et laisse à l'application principale le rendu, les réglages, l'historique et le diagnostic.",
+    workflowLead: "Commencez dans Finder, importez des fichiers ou glissez-les dans l’app. Vérifiez l’aperçu PDF, choisissez un profil et exportez un document ou un lot.",
     workflowStep1Index: "Étape 1",
-    workflowStep1Title: "Sélectionner Markdown dans un dossier Finder autorisé",
-    workflowStep1Body:
-      "L'extension Finder n'apparaît que dans les dossiers que vous autorisez explicitement, et cible les fichiers `.md` et `.markdown`, pour démarrer depuis un clic droit familier.",
+    workflowStep1Title: "Ajouter des fichiers depuis Finder ou l’app",
+    workflowStep1Body: "Activez l’extension Finder et autorisez vos dossiers pour convertir par clic droit. Vous pouvez aussi importer des fichiers .md et .markdown depuis la barre d’outils ou les glisser dans l’app.",
     workflowStep2Index: "Étape 2",
-    workflowStep2Title: "Laisser la file organiser les travaux plus longs",
-    workflowStep2Body:
-      "Les demandes passent par une file partagée, ce qui laisse à l'application principale la place de grouper, relancer et conserver l'historique sans ralentir Finder.",
+    workflowStep2Title: "Prévisualiser le PDF avant l’export",
+    workflowStep2Body: "Choisissez un modèle intégré ou un profil enregistré pour chaque fichier. Vérifiez la mise en page et le nombre de pages, zoomez sur les détails et ajustez les réglages avant l’export.",
     workflowStep3Index: "Étape 3",
     workflowStep3Title: "Piloter la sortie PDF depuis un seul endroit",
     workflowStep3Body:
@@ -1079,8 +1015,7 @@ const translations = {
     featuresLead:
       "La version actuelle met l'accent sur la qualité du rendu local, des réglages par défaut utiles et suffisamment de contrôle pour garder des PDF cohérents au fil des exports répétés.",
     feature1Title: "Rendu piloté par profils",
-    feature1Body:
-      "Des profils réutilisables couvrent le format de page, les marges, le thème, l'en-tête et le pied de page, la table des matières, les polices du texte et du code, la taille et l'interligne.",
+    feature1Body: "Partez de modèles intégrés, puis enregistrez, copiez ou renommez vos profils. Réglez les pages A4, A5, Letter ou Legal, les marges, thèmes, polices, tableaux, sommaire, en-têtes et pieds de page.",
     feature2Title: "Des règles de sortie prévisibles",
     feature2Body:
       "Choisissez un export au même nom, avec date ajoutée ou selon un motif personnalisé, puis décidez s'il faut remplacer, échouer vite ou créer des copies.",
@@ -1099,6 +1034,8 @@ const translations = {
     feature7Title: "Tableaux aux coins arrondis",
     feature7Body:
       "Appliquez un rayon d'angle aux tableaux exportés pour obtenir un rendu plus doux, tout en gardant les bordures et l'alignement des colonnes.",
+    feature8Title: "Aperçu PDF avant l’export",
+    feature8Body: "Vérifiez la mise en page et le nombre de pages avec le zoom avant d’enregistrer. Chaque fichier en attente peut utiliser son propre modèle ou profil de rendu.",
     renderEyebrow: "Rendu",
     renderTitle: "Les formules, diagrammes et blocs de code conservent leur sens jusqu'au PDF final.",
     renderLead:
@@ -1134,8 +1071,7 @@ const translations = {
       "Les organigrammes Mermaid et les autres blocs de diagrammes sont rendus proprement, tandis que la navigation par table des matières et les signets PDF basés sur les titres rendent les longs exports plus faciles à parcourir.",
     supportEyebrow: "Matrice de prise en charge",
     supportTitle: "Ce que l'application prend en charge dans la version actuelle.",
-    supportLead:
-      "Cette page s'appuie sur le code source actuel, les notes de version, la matrice de prise en charge et la documentation du dépôt MarkdownToPDF PRO.",
+    supportLead: "Des notes quotidiennes aux rapports techniques, combinez des réglages de page souples avec diagrammes, formules, code et navigation PDF.",
     supportGoodTitle: "Disponible aujourd'hui",
     supportGood1: "Titres, paragraphes, règles horizontales et blocs de citation",
     supportGood2: "Listes ordonnées, listes non ordonnées, listes de tâches, code en ligne, blocs de code et coloration syntaxique",
@@ -1143,8 +1079,7 @@ const translations = {
     supportGood4: "Thèmes, formats de page, marges, navigation par table des matières, signets PDF, règles de nommage et actions après export",
     privacyEyebrow: "Politique de confidentialité",
     privacyTitle: "MarkdownToPDF PRO est conçu pour fonctionner sur votre Mac, pas dans le cloud.",
-    privacyLead:
-      "La politique ci-dessous reflète l'architecture actuelle de l'application, les fichiers d'entitlements et la documentation du dépôt au 19 avril 2026.",
+    privacyLead: "Cette politique décrit le traitement des documents et le stockage des préférences dans l’app actuelle. Vérifiée le 3 octobre 2026.",
     privacyCard1Title: "Ce à quoi l'application accède",
     privacyCard1Body:
       "Uniquement les fichiers et dossiers Markdown que vous choisissez explicitement, ainsi que les réglages locaux, profils, historiques et métadonnées de file.",
@@ -1155,7 +1090,7 @@ const translations = {
     privacyCard3Body:
       "L'application est sandboxée et utilise des permissions de fichiers choisies par l'utilisateur ainsi qu'un conteneur App Group pour le passage des tâches entre Finder et l'application.",
     privacyEffectiveLabel: "Date d'effet",
-    privacyEffectiveValue: "19 avril 2026",
+    privacyEffectiveValue: "3 octobre 2026",
     policy1Title: "1. Informations traitées par l'application",
     policy1Body:
       "MarkdownToPDF PRO traite les documents source que vous sélectionnez, les emplacements de sortie que vous choisissez et les réglages stockés localement comme les profils de rendu, règles de nommage, historique de conversion et enregistrements de file en attente.",
@@ -1174,14 +1109,12 @@ const translations = {
     policy6Title: "6. Mise à jour de la politique",
     policy6Body:
       "Si l'architecture de l'application change dans une future version, cette politique devra être mise à jour en même temps que les notes de version et le site afin que la description reste fidèle au comportement réel.",
-    footerBody:
-      "Construit à partir du code actuel de MarkdownToPDF PRO, des notes de version, de la matrice de prise en charge et des aperçus localisés.",
+    footerBody: "Conversion locale de Markdown en PDF pour macOS, avec intégration Finder, aperçu PDF et profils de rendu réutilisables.",
     footerContactLabel: "Contact :",
   },
   it: {
     pageTitle: "MarkdownToPDF PRO per macOS",
-    pageDescription:
-      "MarkdownToPDF PRO è un'app macOS integrata con Finder che converte localmente file Markdown in PDF curati, con profili, evidenziazione della sintassi, rendering matematico, cronologia, coda batch e trattamento attento alla privacy. Dalla versione 1.5 puoi esportare 20 PDF gratis senza acquistare nulla, poi usare una prova gratuita di 7 giorni e infine sbloccare l'accesso a vita con un acquisto unico da US$1. Nessun abbonamento e nessun addebito automatico.",
+    pageDescription: "MarkdownToPDF PRO converte Markdown in PDF curati localmente sul Mac, con integrazione Finder, anteprima PDF, profili riutilizzabili, coda batch, diagrammi, formule e cronologia. Acquista una volta sull’App Store e usa tutte le funzioni dopo l’installazione. Il prezzo è indicato nello store della tua regione.",
     navPrimaryAria: "Navigazione principale",
     langSwitcherLabel: "Selettore lingua",
     skipLink: "Vai al contenuto",
@@ -1192,28 +1125,25 @@ const translations = {
     heroTitle: "Trasforma Markdown in PDF curati senza uscire da Finder.",
     heroLead:
       "MarkdownToPDF PRO è pensata per scrittori, ingegneri e team di documentazione che vogliono esportazioni locali e ripetibili, con code batch, profili e output puliti pronti per la stampa.",
-    heroDownload: "Esporta 20 PDF gratis",
+    heroDownload: "Visualizza sull’App Store",
     heroPrimary: "Esplora le anteprime",
     heroSecondary: "Leggi l'informativa sulla privacy",
     heroBadge1: "Clic destro su file `.md` e `.markdown` nelle cartelle Finder autorizzate",
     heroBadge2: "Code batch e ritentativi in caso di errore",
     heroBadge3: "Regola formato pagina, margini, tema, font e regole di naming",
-    heroBadge4: "Tutto resta locale nel sandbox dell'app",
+    heroBadge4: "Elabora i documenti localmente sul Mac",
     metaPlatformLabel: "Piattaforma",
     metaPlatformValue: "macOS 14+",
     metaLanguageLabel: "Lingue UI",
-    metaLanguageValue: "8 opzioni integrate",
+    metaLanguageValue: "30 opzioni di lingua e regione",
     metaPrivacyLabel: "Privacy",
     metaPrivacyValue: "Nessun account, nessun upload sul cloud",
-    metaPricingLabel: "Dalla versione 1.5",
-    metaPricingValue:
-      "20 esportazioni gratis, prova 7 giorni, sblocco a vita per US$1. Nessun abbonamento.",
+    metaPricingLabel: "Acquisto",
+    metaPricingValue: "Acquisto unico sull’App Store con tutte le funzioni incluse. Prezzo indicato nello store.",
     heroNoteTopLabel: "Flusso centrato sulla coda",
-    heroNoteTopBody:
-      "Le richieste del Finder vengono passate all'app principale, così le conversioni più lunghe restano stabili e più facili da gestire.",
+    heroNoteTopBody: "Segui i file in coda e le conversioni in corso in un’unica dashboard. I risultati vengono salvati nella cronologia.",
     heroNoteBottomLabel: "Flusso locale orientato alla privacy",
-    heroNoteBottomBody:
-      "L'app usa accesso ai file sandboxato e archiviazione locale invece di rendering cloud o flussi di login.",
+    heroNoteBottomBody: "Documenti, profili e cronologia delle conversioni restano sul Mac. Nessun account richiesto.",
     heroImageAlt: "Dashboard della coda di MarkdownToPDF PRO",
     signal1Title: "Direttamente da Finder",
     signal1Body:
@@ -1225,20 +1155,16 @@ const translations = {
     signal3Body:
       "Esportazioni riuscite, lavori falliti, ritentativi e percorsi di output restano visibili invece di sparire dentro un menu.",
     signal4Title: "Interfaccia già localizzata",
-    signal4Body:
-      "L'app desktop include già inglese, cinese semplificato, cinese tradizionale, giapponese, coreano, tedesco, francese e italiano.",
+    signal4Body: "Scegli tra 30 opzioni di lingua e regione nelle impostazioni, tra cui cinese, spagnolo, portoghese, arabo e lingue nordiche, oppure segui la lingua di macOS.",
     workflowEyebrow: "Flusso",
     workflowTitle: "Un modo più tranquillo di esportare Markdown ancora e ancora.",
-    workflowLead:
-      "L'architettura del prodotto mantiene leggera l'estensione Finder e lascia all'app principale rendering, impostazioni, cronologia e diagnostica.",
+    workflowLead: "Inizia dal Finder, importa file o trascinali nell’app. Controlla l’anteprima PDF, scegli un profilo ed esporta un documento o un gruppo di file.",
     workflowStep1Index: "Passo 1",
-    workflowStep1Title: "Seleziona Markdown in una cartella Finder autorizzata",
-    workflowStep1Body:
-      "L'estensione Finder appare solo nelle cartelle che autorizzi esplicitamente e lavora su file `.md` e `.markdown`, così il flusso parte dal familiare menu contestuale.",
+    workflowStep1Title: "Aggiungi file dal Finder o dall’app",
+    workflowStep1Body: "Abilita l’estensione Finder e autorizza le cartelle per convertire con il clic destro. Puoi anche importare file .md e .markdown dalla barra degli strumenti o trascinarli nell’app.",
     workflowStep2Index: "Passo 2",
-    workflowStep2Title: "Lascia che la coda organizzi i lavori più lunghi",
-    workflowStep2Body:
-      "Le richieste passano attraverso una coda condivisa, lasciando all'app principale lo spazio per batch, ritentativi e cronologia senza rallentare Finder.",
+    workflowStep2Title: "Visualizza il PDF prima di esportare",
+    workflowStep2Body: "Scegli un modello integrato o un profilo salvato per ogni file. Nell’anteprima PDF controlla impaginazione e numero di pagine, ingrandisci i dettagli e modifica le impostazioni prima di esportare.",
     workflowStep3Index: "Passo 3",
     workflowStep3Title: "Controlla l'output PDF da un solo posto",
     workflowStep3Body:
@@ -1248,8 +1174,7 @@ const translations = {
     featuresLead:
       "La versione attuale si concentra sulla qualità del rendering locale, su impostazioni pratiche e su un controllo sufficiente per mantenere coerenti i PDF esportati nel tempo.",
     feature1Title: "Rendering guidato da profili",
-    feature1Body:
-      "Profili riutilizzabili coprono formato pagina, margini, tema, intestazione e piè di pagina, indice, font del testo e del codice, dimensione del carattere e altezza riga.",
+    feature1Body: "Parti dai modelli integrati, poi salva, copia o rinomina i tuoi profili. Personalizza pagine A4, A5, Letter o Legal, margini, temi, font, tabelle, indice, intestazioni e piè di pagina.",
     feature2Title: "Regole di output prevedibili",
     feature2Body:
       "Scegli esportazioni con lo stesso nome, con data aggiunta o con pattern personalizzati, poi decidi se sostituire, fallire subito o creare copie.",
@@ -1268,6 +1193,8 @@ const translations = {
     feature7Title: "Tabelle con angoli arrotondati",
     feature7Body:
       "Applica un raggio agli angoli delle tabelle esportate, mantenendo bordi e allineamento delle colonne con un aspetto più morbido.",
+    feature8Title: "Anteprima PDF prima dell’esportazione",
+    feature8Body: "Controlla impaginazione e numero di pagine con lo zoom prima di salvare. Ogni file in coda può usare il proprio modello o profilo di rendering.",
     renderEyebrow: "Rendering",
     renderTitle: "Formule, diagrammi e blocchi di codice mantengono il loro significato fino al PDF finale.",
     renderLead:
@@ -1303,8 +1230,7 @@ const translations = {
       "I flowchart Mermaid e gli altri blocchi diagramma vengono resi in modo pulito, mentre navigazione del sommario e segnalibri PDF basati sui titoli rendono più facile sfogliare export lunghi.",
     supportEyebrow: "Matrice di supporto",
     supportTitle: "Cosa supporta l'app nella versione attuale.",
-    supportLead:
-      "Questa pagina si basa sul codice sorgente attuale, sulle note di rilascio, sulla matrice di supporto e sulla documentazione del repository MarkdownToPDF PRO.",
+    supportLead: "Dalle note quotidiane ai rapporti tecnici, combina impostazioni di pagina flessibili con diagrammi, formule, codice e navigazione PDF.",
     supportGoodTitle: "Disponibile oggi",
     supportGood1: "Titoli, paragrafi, linee orizzontali e blocchi di citazione",
     supportGood2: "Liste ordinate, liste non ordinate, task list, codice inline, blocchi di codice e evidenziazione della sintassi",
@@ -1312,8 +1238,7 @@ const translations = {
     supportGood4: "Temi, formati pagina, margini, navigazione del sommario, segnalibri PDF, regole di naming e azioni post-export",
     privacyEyebrow: "Informativa sulla privacy",
     privacyTitle: "MarkdownToPDF PRO è progettata per lavorare sul tuo Mac, non nel cloud.",
-    privacyLead:
-      "L'informativa seguente riflette l'architettura attuale dell'app, i file di entitlement e la documentazione del repository al 19 aprile 2026.",
+    privacyLead: "Questa informativa descrive come l’app attuale elabora i documenti e salva le preferenze. Verificata il 3 ottobre 2026.",
     privacyCard1Title: "A cosa accede l'app",
     privacyCard1Body:
       "Solo ai file e alle cartelle Markdown che scegli esplicitamente, oltre a impostazioni locali, profili, cronologia e metadati della coda.",
@@ -1324,7 +1249,7 @@ const translations = {
     privacyCard3Body:
       "L'app è sandboxata e usa permessi ai file scelti dall'utente insieme a un contenitore App Group per il passaggio dei lavori tra estensione Finder e app principale.",
     privacyEffectiveLabel: "Data di efficacia",
-    privacyEffectiveValue: "19 aprile 2026",
+    privacyEffectiveValue: "3 ottobre 2026",
     policy1Title: "1. Informazioni trattate dall'app",
     policy1Body:
       "MarkdownToPDF PRO tratta i documenti sorgente selezionati, le posizioni di output scelte e le impostazioni salvate localmente come profili di rendering, regole di naming, cronologia delle conversioni e record della coda in attesa.",
@@ -1343,8 +1268,7 @@ const translations = {
     policy6Title: "6. Aggiornamenti della policy",
     policy6Body:
       "Se l'architettura dell'app cambia in una futura versione, anche questa informativa dovrebbe essere aggiornata insieme alle note di rilascio e al sito, così la descrizione pubblicata resta accurata.",
-    footerBody:
-      "Realizzato a partire dall'attuale codebase di MarkdownToPDF PRO, dalle note di rilascio, dalla matrice di supporto e dalle anteprime localizzate.",
+    footerBody: "Conversione locale da Markdown a PDF per macOS, con integrazione Finder, anteprima PDF e profili di rendering riutilizzabili.",
     footerContactLabel: "Contatto:",
   },
 };

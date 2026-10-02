@@ -142,6 +142,7 @@ a:focus-visible {
   width: min(calc(100% - 2rem), var(--max-width));
   margin: 0 auto;
   padding: 1rem 0 4rem;
+  overflow-wrap: anywhere;
 }
 
 .section,
@@ -454,6 +455,7 @@ a:focus-visible {
 
 .floating-card {
   position: absolute;
+  z-index: 1;
   width: min(18rem, 48%);
   padding: 1rem 1.05rem;
   border-radius: var(--radius-md);
@@ -866,6 +868,7 @@ a:focus-visible {
 
   .hero-visual {
     min-height: auto;
+    flex-direction: column;
     padding-top: 1rem;
   }
 
