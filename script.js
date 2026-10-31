@@ -1666,6 +1666,16 @@ const altNodes = document.querySelectorAll("[data-i18n-alt]");
 const ariaLabelNodes = document.querySelectorAll("[data-i18n-aria-label]");
 const promoGallery = document.getElementById("promo-gallery");
 
+// iPadOS can report MacIntel in desktop mode, so exclude touch devices.
+const isMacOS = /Mac/i.test(navigator.platform) && !(navigator.maxTouchPoints > 1);
+
+if (isMacOS) {
+  // A direct link keeps the external-app request tied to the user's click in Chrome.
+  document.querySelectorAll("[data-macos-href]").forEach((link) => {
+    link.href = link.dataset.macosHref;
+  });
+}
+
 function resolveLanguage(language) {
   if (typeof language !== "string") return null;
 

@@ -9,6 +9,11 @@ selections, otherwise follows the browser language, and supports Arabic RTL layo
 
 Production URL: <https://markdowntopdfwebpage.pages.dev/>
 
+The App Store button uses a direct `macappstores://` link on macOS so Chrome can
+open the native App Store from the user's click. Chrome may ask the user to confirm
+opening the app. Other platforms, and browsers with JavaScript disabled, keep the
+HTTPS store listing link.
+
 ## Cloudflare Pages
 
 Connect the repository `fan1056218492/MarkdownToPDFWebPage` to Cloudflare Pages and use:
